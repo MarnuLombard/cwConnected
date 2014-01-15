@@ -1,0 +1,42 @@
+// a file for the random bits and pieces
+
+
+// you have one new assignment(etc)popup
+// As per concursive.com
+.ccp-alert {
+	@include border-radius(5px);
+	margin-right: 30px;
+	padding: 0 5px 0 25px;
+	background-color: red;
+	background-image: url(img/icons/mail_blue.png);
+	background-repeat: no-repeat;
+	background-position: 5px 50%;
+	clear: both;
+	float: right;
+	margin-top: 10px;
+	padding: 0 30px 0 23px;
+	white-space: nowrap;
+	font-weight: bold;
+}
+
+.ccp-alert,
+.ccp-alert a {
+	color: white;
+}
+
+
+// widget wrapper (on the sides of pages)
+.portletWindowBackground {
+}
+
+
+/* To remove external wiki link img from next to URL */
+.external {
+	background: none;
+	padding-right: 0px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}

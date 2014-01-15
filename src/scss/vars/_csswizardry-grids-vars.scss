@@ -1,0 +1,136 @@
+///------------------------------------//
+//    $INTRODUCTION
+//------------------------------------///
+/////
+ // csswizardry grids provides you with widths to suit a number of breakpoints
+ // designed around devices of a size you specify. Out of the box, csswizardry
+ // grids caters to the following types of device:
+ //
+ // palm     --  palm-based devices, like phones and small tablets
+ // lap      --  lap-based devices, like iPads or laptops
+ // portable --  all of the above
+ // desk     --  stationary devices, like desktop computers
+ // regular  --  any/all types of device
+ //
+ // These namespaces are then used in the library to give you the ability to
+ // manipulate your layouts based around them, for example:
+ //
+ //  <div class="grid__item  one-whole  lap--one-half  desk--one-third">
+ //
+ // This would give you a grid item which is 100% width unless it is on a lap
+ // device, at which point it become 50% wide, or it is on a desktop device, at
+ // which point it becomes 33.333% width.
+ //
+ // csswizardry grids also has push and pull classes which allow you to nudge
+ // grid items left and right by a defined amount. These follow the same naming
+ // convention as above, but are prepended by either `push--` or `pull--`, for
+ // example:
+ //
+ //  `class="grid__item  one-half  push--one-half"`
+ //
+ // This would give you a grid item which is 50% width and pushed over to the
+ // right by 50%.
+ //
+ // All classes in csswizardry grids follow this patten, so you should fairly
+ // quickly be able to piece together any combinations you can imagine, for
+ // example:
+ //
+ //  `class="grid__item  one-whole  lap--one-half  desk--one-third  push--desk--one-third"`
+ //
+ //  `class="grid__item  one-quarter  palm--one-half  push--palm--one-half"`
+ //
+ //  `class="grid__item  palm--one-third  desk--five-twelfths"`
+ ///
+
+
+
+
+
+///------------------------------------//
+//    $VARIABLES
+//------------------------------------///
+/////
+ // If you are building a non-responsive site but would still like to use
+ // csswizardry-grids, set this to ‘false’:
+ ///
+$responsive:            true!default;
+
+
+/////
+ // Is this build mobile first? Setting to ‘true’ means that all grids will be
+ // 100% width if you do not apply a more specific class to them.
+ ///
+$mobile-first:          true!default;
+
+
+/////
+ // Set the spacing between your grid items.
+ ///
+$gutter:                24px!default;
+
+
+/////
+ // Would you like Sass’ silent classes, or regular CSS classes?
+ ///
+$use-silent-classes:    false!default;
+
+
+/////
+ // Would you like push and pull classes enabled?
+ ///
+$push:                  false!default;
+$pull:                  false!default;
+
+
+/////
+ // Using `inline-block` means that the grid items need their whitespace removing
+ // in order for them to work correctly. Set the following to true if you are
+ // going to achieve this by manually removing/commenting out any whitespace in
+ // your HTML yourself.
+ //
+ // Setting this to false invokes a hack which cannot always be guaranteed,
+ // please see the following for more detail:
+ //
+ // github.com/csswizardry/csswizardry-grids/commit/744d4b23c9d2b77d605b5991e54a397df72e0688
+ // github.com/csswizardry/inuit.css/issues/170#issuecomment-14859371
+ ///
+$use-markup-fix:        false;
+
+
+/////
+ // Define your breakpoints. The first value is the prefix that shall be used for
+ // your classes (e.g. `.palm--one-half`), the second value is the media query
+ // that the breakpoint fires at.
+ ///
+$breakpoints: (
+    'palm' '(max-width: 480px)',
+    'lap' '(min-width: 481px) and (max-width: 1023px)',
+    'portable' '(max-width: 1023px)',
+    'desk' '(min-width: 1024px)'
+)!default;
+
+
+/////
+ // Define which namespaced breakpoints you would like to generate for each of
+ // widths, push and pull. This is handy if you only need pull on, say, desk, or
+ // you only need a new width breakpoint at mobile sizes. It allows you to only
+ // compile as much CSS as you need. All are turned on by default, but you can
+ // add and remove breakpoints at will.
+ //
+ // Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
+ // have been set to ‘true’.
+ ///
+$breakpoint-has-widths: ('palm', 'lap', 'portable', 'desk')!default;
+$breakpoint-has-push:   ('palm', 'lap', 'portable', 'desk')!default;
+$breakpoint-has-pull:   ('palm', 'lap', 'portable', 'desk')!default;
+
+
+/////
+ // You do not need to edit anything from this line onward; csswizardry-grids is
+ // good to go. Happy griddin’!
+ ///
+$class-type:            unquote(".");
+
+@if $use-silent-classes == true{
+    $class-type:        unquote("%");
+}

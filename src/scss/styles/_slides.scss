@@ -1,0 +1,113 @@
+#ccp-body-home .portletTable1 {
+	margin-bottom: 3em;
+}
+
+/* Let's add some specificity to this bitch */
+body[id^="ccp-body"] div[id^="portletWindow"]{
+
+	.ccp-slide {
+		h2 {
+			@extend .beta;
+			color: white;
+		}
+		p,
+		strong {
+			color: white;
+			font-family: $font-body;
+			font-weight: 200 !important;
+			font-size: 18px;
+			line-height: 1.2;
+
+			// last p is always the one containinng the read more button
+			// let's remove the stupid margin using :last-child & an IE < 8 hack
+			&:last-child {
+				margin-bottom: 0;
+			}
+			*margin-bottom: expression(this.nextSibling==null?'none':'0');
+		}// p, strong
+
+
+		a {
+			@extend .special_button;
+			background-image: none;
+		}
+	}// slide
+	// the slider's closest wrapper
+.yui-carousel{
+	@extend %clearfix;
+	padding: 2em 70px 0;
+
+
+	@at-root {
+
+		#{&}-content {
+			height: auto !important;
+			margin-bottom: 0;
+		} // the overflow wrapper
+
+		#{&}-element {
+
+		} // carousel element
+
+		//a slide itself
+		#{&}-item {
+		}
+
+		#{&}-nav {
+			height: 100%;
+
+			ul {
+				display: none;
+			}
+		}// yui-carousel-nav
+
+		#{&}-button {
+			@extend %screenreader;
+
+			width: 60px;
+			height: 80px;
+			margin: -40px 0 0 0;
+			float: none;
+			display: block;
+			position: absolute;
+			top: 50%;
+		}// button
+
+		#{&}-next-button {
+			right: 0;
+			background: url(../img/slider/arrow--right.png) no-repeat;
+
+		}
+
+		#{&}-first-button {
+			left: 0;
+			background: url(../img/slider/arrow--left.png) no-repeat;
+		}
+
+		// the dots
+
+		#{&}-nav-first-page {
+
+		}
+
+		#{&}-nav-first-page {
+
+		}
+
+	}// @root
+}// yui-carousel
+
+
+}// body[id^="ccp-body"] div[id^="portletWindow"]{
+
+.widget-home-autoscroller-portletWindowBackground {
+/* 	min-height: 450px;*/
+	background-color: $color-grey_Xdark;
+}
+
+#ccp-carousel-photos {
+	.itemTable {
+		text-align: center;
+	}
+}
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>
+Created by FontForge 20120731 at Thu Dec 19 16:36:27 2013
+ By Marnu Lombard
+Created by Marnu Lombard with FontForge 2.0 (http://fontforge.sf.net)
+</metadata>
+<defs>
+<font id="icons" horiz-adv-x="388" >
+  <font-face 
+    font-family="icons"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 6 9 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="0 -64 388 448"
+    underline-thickness="25"
+    underline-position="-52"
+    unicode-range="U+F100-F100"
+  />
+<missing-glyph 
+d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
+    <glyph glyph-name=".notdef" 
+d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" 
+ />
+    <glyph glyph-name="uniF100" unicode="&#xf100;" 
+d="M194 448q80 0 137 -57t57 -137q0 -49 -42 -127.5t-89 -134.5t-63 -56q-21 0 -67.5 56.5t-86.5 134t-40 127.5q0 80 57 137t137 57zM193 158q41 0 70 29t29 70t-29 70t-70 29t-69.5 -29t-28.5 -70t28.5 -70t69.5 -29z" />
+  </font>
+</defs></svg>

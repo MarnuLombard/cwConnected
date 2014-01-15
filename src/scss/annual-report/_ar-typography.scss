@@ -1,0 +1,66 @@
+.ar {
+  @include element(wrapper) {
+    font-size: 16px;
+    color: white;
+
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 0.6em;
+    }
+
+    h1 {
+      color: $color-secondary_light;
+      font-size: 70px;
+      font-size: (70 / 16) * 1rem;
+    }
+
+    h2, h3, h4, h5, h6 {
+      color: inherit;
+    }
+    p,
+    blockquote {
+      margin-bottom: 2.5em;
+      letter-spacing: 0.5px;
+    }
+
+    blockquote {
+      margin: 0 0 3em;
+      padding: 2em 3.5em 1em;
+      background-color: $color-primary_dark;
+      font-size: 20px;
+      line-height: 1.5;
+      color: white;
+
+      @include pull-quotes(111px, 0.3, white);
+      @include border-radius(5px);
+      @include box-shadow(0 0 0 2px $color-primary_Xdark inset);
+
+      &:before {
+
+      }
+    }
+    cite {
+      display: block;
+      margin-top: 1em;
+      font-size: 0.8em;
+      text-align: right;
+    }
+    .lead {
+      font-size: 24px;
+      font-size: (24 / 16) * 1rem;
+    }
+
+    a {
+      color: $color-secondary_light;
+    }
+
+    .highlight {
+      color: $color-primary;
+    }
+  }// wrapper
+
+
+
+
+
+}// ar

@@ -1,0 +1,160 @@
+/* body[id^="ccp-body"] {
+// target all buttons
+// (that I could find)
+// Useful for consistency
+.button-list-vertical-portletWindowBackground li a,
+.searchFilter li a,
+.actionsContainer li a,
+.projectActionsContainer li a,
+.widget-footer-contact input[type="image"],
+.submit,
+.textbox .buttons .submit,
+.ccp-button-single a
+{
+	@include sassy-button;
+}
+}
+*/
+
+
+.special_button {
+/**
+ * because that's the best name
+ * I can think of right now
+ */
+
+	@extend .gamma;
+	@extend %inline-block__hack;
+
+	padding: 3px 15px;
+	background-color: $color-secondary;
+	color: $color-secondary_light;
+	text-decoration: none;
+
+	@include text-shadow(1px 1px 0 darken($color-secondary, 5%));
+	@include box-shadow(6px 6px 0 $color-secondary_Xdark);
+	@include transition(color 0.3s ease-in);
+
+	&:hover {
+		color: $color-secondary_Xlight;
+	}
+
+	&:active {
+		margin: 3px 0 0 3px;
+		padding: 3px 12px 0 15px;
+		@include box-shadow(3px 3px 0 $color-secondary_Xdark);
+	}
+}
+
+
+/*=========================================
+=            Define the styles            =
+=========================================*/
+%button {
+	@include sassy-button('simple', 5px, ($font-size * 1%), $color-secondary, $color-secondary_dark, white, raised, true, true);
+	@include sassy-button-structure($sb-border-radius, $sb-font-size, 0.8em);
+	@include sassy-button-default-structure();
+
+	&:hover {
+		border: 1px solid $color-secondary_Xdark;
+	}
+}
+%button__color--reset {
+	@at-root {
+	#{&},
+	&:hover {
+		border: 0;
+	}
+	}
+}
+
+%button__height--reset {
+	@at-root {
+	#{&},
+	&:hover {
+		height: auto;
+		line-height: 1;
+	}
+	}
+}
+
+
+/*================================================
+=            Reset the default styles            =
+================================================*/
+// I do this (in most cases) by breaking the css rules,
+// instead of saying 'auto' or 'initial'
+// This should go before any classes
+%button--reset {
+	@at-root {
+	#{&},
+	&:hover {
+		color: reset;
+		position: reset;
+		margin: reset;
+		display: reset;
+		text-decoration: reset;
+		line-height: 1;
+		height: auto;
+		background-image: reset;
+		border: 0;
+		border-radius: reset;
+		-moz-border-radius: reset;
+		-webkit-border-radius: reset;
+		font-weight: reset;
+		padding: reset;
+		min-width: reset;
+		width: reset;
+		text-align: reset;
+	}
+	}
+}
+
+
+/*=================================================
+=            Add styles to the classes            =
+=================================================*/
+
+// increase specificty to beat default rules
+.ccp-page-body {
+
+.button-list-vertical-portletWindowBackground ul{
+
+	li,
+	li a,
+	li a em {
+		@extend %button--reset;
+		display: block;
+	}
+
+	li a em {
+		background-image: url();
+	}
+
+}// .button-list-vertical-portletWindowBackground
+
+#ccp-signup .textbox .buttons input,
+.ccp-button-single a {
+	@extend %button--reset;
+	@extend %button;
+}
+
+#ccp-signup .textbox .buttons input,
+.button-list-vertical-portletWindowBackground ul li a,
+input[type="submit"],
+input[type="button"]{
+	@extend %button;
+}
+
+
+// there's an important on the color of the sign up button. Let's fix it.
+#ccp-signup .textbox .buttons input {
+	color: $sb-text-color !important;
+}
+
+/* input[type="submit"]+input[type="button"]{
+	margin-left: 70px;
+} */
+
+}//id^=ccp-body
+

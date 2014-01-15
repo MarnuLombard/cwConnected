@@ -1,0 +1,61 @@
+// extend a default style
+// to all form inputs
+input[type="text"] {
+	@include box-shadow(
+		0 -1px 0 rgba(0, 0, 0, .3),
+		inset 0 1px 2px rgba(0, 0, 0, .2)
+	);
+	@include border-radius(4px);
+
+	border: 1px solid $color-grey_light;
+	outline: 0;
+	margin: 0 0 10px 0;
+	padding: 8px 6px;
+	color: $color-text;
+}
+
+
+#ccp-signup .textbox {
+	.fields {
+		input[type="text"] {
+			width: 95%;
+		}
+
+		// the fake placeholder for the fields
+		.fieldValue {
+		}
+	}
+
+	.buttons {
+		text-align: center;
+	}
+}// ccp-signup
+
+.formContainer form {
+	display: block;
+	position: relative;
+	padding: 10px;
+	@include border-radius(5px);
+	margin: 0 0 5px 0;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #EAEAEA #E3E3E3 #DDDDDD;
+	background: #fcfcfc;
+}
+
+.formContainer fieldset {
+	padding: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	margin: 0;
+	border: 0;
+}
+
+.widget-footer-contact {
+
+	// the submit button
+	input[type="image"] {
+
+	}// submit
+} // widget-footer-contact

@@ -1,0 +1,7 @@
+@mixin maxWidth ($margin: 0, $padding: 0) {
+  $extra-width: $margin + $padding;
+
+  _width: 1200px-$extra-width;
+  max-width: 1200px-$extra-width;
+  min-width: 1024px;
+}

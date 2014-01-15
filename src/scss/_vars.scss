@@ -1,0 +1,10 @@
+@import "vars/compass-vars"; //--> Import this first
+
+// project-vars
+@import "vars/color-vars";
+@import "vars/typography-vars";
+
+// lib-vars
+@import "vars/sassy-buttons-vars";
+@import "vars/csswizardry-grids-vars";
+@import "vars/typeplate-vars";

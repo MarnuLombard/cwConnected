@@ -1,0 +1,231 @@
+/*
+--------------------------------
+	Structure of the header is:
+--------------------------------
+
+<div class="ccp-header">
+  <div class="ccp-header-title">
+    <a>
+			<img id="ccp-header-title-image-id">
+
+
+	<div class="ccp-header-menu">
+		<div class="ccp-site-menu">
+      <ul>
+				<li>
+					<a>
+	    <div class="ccp-user-menu">
+	      <ul>
+					<li>
+		        <a>
+	    <div class="ccp-search-form">
+      <form>
+        <fieldset>
+          <div id="applesearch">
+						<input id="srch_fld">
+
+
+    <div class="ccp-navigation">
+      <ul>
+        <li>
+          <a>
+            <span>
+            <span>
+            <em>
+            <span>
+            <span>
+
+*/
+.ccp-header {
+	@include maxWidth;
+	background-color: $color-grey_Xdark;
+	background-position: top center;
+	background-repeat: no-repeat;
+
+	background-image: url(../img/header_tall.png);
+	height: 335px;
+
+	overflow: visible;
+
+.ccp-header-title,
+.ccp-header-menu,
+.ccp-navigation ul {
+	@extend %center;
+	font-size: 14px;
+}
+
+
+// this is the logo
+	.ccp-header-title,
+	.ccp-header-title #ccp-header-title-image-id {
+		height: 65px;
+	}
+
+	.ccp-header-title {
+		width: 81.5%;
+		position: absolute;
+		top: 120px;
+		left: 35px;
+		#ccp-header-title-link-id,
+		#ccp-header-title-image-id {
+			width: 100%;
+		}
+	}// ccp-header-title
+
+
+	.ccp-header-menu {
+		@include maxWidth;
+		@extend %clearfix;
+		@extend %center;
+
+		.ccp-site-menu,
+		.ccp-user-menu {
+			height: auto;
+			margin: 0;
+			padding: 0;
+			background: none;
+
+			ul {
+				margin: 0;
+				padding: 0;
+			}
+
+			li{
+				border: none;
+				padding: 3px 10px;
+			}
+
+			li,
+			li a {
+					color: $color-grey_light;
+				}
+
+		}// site-menu, user-menu
+
+		.ccp-site-menu {
+			float: right;
+			@extend %inline-block__hack;
+		}
+
+		.ccp-user-menu {
+			display: block;
+			float: left;
+			width: 70%;
+		}
+
+		.ccp-search-form {
+	    margin: 0;
+	    position: absolute;
+	    left: 0;
+	    top: 25px;
+
+			#applesearch {
+				margin-left: 0;
+				input[type="search"] {
+					width: auto;
+					padding: 8px;
+					margin-left: 12px;
+					float: none;
+					border-radius: 6px;
+					border: 0;
+					background: white;
+				}// input
+
+				.sbox_location,
+				.sbox_location_active {
+					@extend %icons;
+					@extend %icon_location;
+
+					width: auto;
+					height: auto;
+					padding: 5px 0 0 20px;
+					background: none !important;
+					color: white;
+					font-size: 1.8em;
+				}
+
+				.sbox_l,
+				.sbox_r {
+					background: none;
+				}
+			}// #applesearch
+
+			#ccp-search-location {
+				@extend %clearfix;
+
+				// reset some stupidness
+				float: none;
+				position: initial;
+
+				margin-top: 10px;
+				padding: 4px 6px;
+				background: white;
+				border-radius: 7px;
+
+				#ccp-search-near,
+				#srch_loc_fld  {
+					@extend %inline-block__hack;
+					vertical-align: middle;
+				}
+
+				label#ccp-search-near {
+					width: 60px;
+					color: $color-text;
+				}
+
+				input#srch_loc_fld {
+					width: 60%;
+					margin-bottom: 0;
+					padding: 4px;
+				}
+
+			}// search location
+
+			#ccp-search-go {
+				@extend %screenreader;
+			}
+		}// search form
+	}// header menu
+
+	.ccp-navigation {
+    width: 100%;
+		height: auto;
+		position: absolute;
+    bottom: 0;
+		padding: 0;
+		line-height: 0;
+		background-color: white;
+
+
+		ul {
+			@include maxWidth();
+			@extend %center;
+			@extend %even-distribution--wrapper;
+			padding: 0 1em;
+
+			li[id^="ccp-tabitem-"] {
+				@extend %inline-block__hack;
+				padding: 1.2em 0;
+
+				a[id^="ccp-tab-"] {
+					font-size: 1.4em;
+					color: $color-text;
+
+					&.active em {
+						font-family: $font-body_alt;
+						font-weight: 800;
+					}
+
+					em {
+						font-family: $font-body;
+					}
+
+				}// a
+			}// li
+		}// ul
+	}// navigation
+
+
+
+} //ccp-header
+

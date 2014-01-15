@@ -1,0 +1,90 @@
+@include font-face(League-Gothic);
+@include font-face(Lato-Light);
+@include font-face(Lato-Regular);
+@include font-face(icons);
+
+
+/* %reset-bebas {
+  font-family: $font-body;
+  text-transform: initial;
+  font-weight: 600;
+  letter-spacing: 0;
+  word-spacing: initial;
+} */
+
+body {
+  font-family: $font-body;
+  line-height: 1.2;
+}
+
+h1,
+h2 {
+  /* letter-spacing: -1px;
+  word-spacing: 15px; */
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $font-headings;
+}
+
+h4,
+h5,
+h5 {
+  font-family: $font-body_alt;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include font-smoothing(antialiased);
+  @include transform(translate3d(0, 0, 0));
+  font-weight: 100;
+  color: $color-headings;
+
+  ol &,
+  ul & {
+    font-size: 1.3em;
+    // @extend %reset-bebas;
+  }
+}
+
+strong {
+  font-family: $font-body_alt;
+}
+
+.portletWrapper {
+  h2 {
+    @extend .delta;
+    // @extend %reset-bebas;
+  }
+}
+
+.portlet-section-body {
+  h1 {
+    @extend .gamma;
+  }
+}
+
+.vcard {
+  h2 {
+    @extend .gamma;
+
+    span {
+      font-size: 0.4em !important;
+      // @extend %reset-bebas;
+
+    }
+  }
+}
+
+.text--center {
+  text-align: center;
+}
+
+

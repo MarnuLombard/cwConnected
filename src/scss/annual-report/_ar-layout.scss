@@ -1,0 +1,84 @@
+.ar {
+  @include e(wrapper) {
+    @extend %clearfix;
+    margin-left: 0;
+    margin-bottom: 3em;
+    width: 100%;
+
+    .icon__wrapper {
+      height: 140px; // create consitency
+      text-align: center;
+
+      img {
+        margin: 0 auto;
+      }
+    }
+
+    @include m(white) {
+      @extend .ar__wrapper;
+      padding-top: 1em;
+      background-color: white;
+
+      p,
+      h2, h3, h4, h5, h6 {
+        color: $color-text !important;
+      }
+    }//ar__wrapper--white
+
+  }// wrapper
+
+
+  @include e(nav) {
+    @extend .grid__item;
+
+    padding-left: 0;
+    background-color: $color-secondary;
+
+    @include border-radius(5px);
+
+    a {
+      padding: 1em;
+      display: block;
+      font-family: $font-body;
+      font-size: 1.3em;
+      line-height: 1.2;
+      color: white;
+      border-bottom: 2px $color-secondary_dark solid;
+    }
+
+  } // nav
+  @include e(section) {
+    @extend .grid__item;
+  }// section
+}// ar
+
+
+.bkg-img {
+  padding-top: 1em;
+  padding-right: 1em;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bkg-img--1 {
+  background-image: url(../img/bkg-img-1.jpg);
+}
+
+.bkg-img--2 {
+  background-image: url(../img/bkg-img-2.jpg);
+}
+
+
+#ccp-body-annual-report {
+  .portalContainer,
+  .portletTable,
+  .portletRow,
+  .ccp-body {
+    @include maxWidth;
+  }
+
+  .ccp-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,54 @@
+.ccp-page-body {
+
+  .ccp-container {
+    _height: 1%;
+    width: 100%;
+    _width: 1024px;
+    min-width: none;
+    max-width: 100%;
+
+    .ccp-body {
+      @include maxWidth(80);
+      padding: 40px 46px 0 34px;
+      background-color: white;
+
+      .portletbody {
+        background-color: white;
+      }
+    }// body
+  }
+}
+
+.center {
+  @extend %center;
+}
+
+.plainportletColumn1,
+.mainportletColumn1 {
+  padding-left: 24px
+}
+
+.portalContainer,
+.portletTable,
+.portletRow  {
+  @include maxWidth(80);
+}
+
+.oneportletColumn {
+  display: block;
+}
+
+// Layout hack
+// I don't understand it too many classes & tables- but it works
+/* .portletTable {
+  font-size: 72%;
+
+  .articleBody p {
+    font-size: 16px;
+  }
+} */
+
+.clear,
+.widget-footer-contact:after{
+	@extend %clearfix
+}

@@ -1,0 +1,66 @@
+.ccp-pre-footer {
+
+}
+
+// containing contact form
+.ccp-sub-footer {
+
+
+	@at-root {
+		#{&}-container {
+			@include maxWidth;
+			@extend %center;
+
+			.widget-footer {
+			@at-root {
+
+				#{&}-about {
+				}
+
+				#{&}-contact {
+
+				}// footer contact
+
+			}//@root
+			} // widget-footer
+
+
+		}// sub footer container
+
+	} // @root
+}// sub footer
+
+
+.ccp-footer {
+	p a,
+	ul li a {
+		color: white;
+	}
+
+	@at-root {
+
+		#{&}-container {
+			@include maxWidth;
+			@extend %center;
+		}
+
+		#{&}-menu {
+
+			li {
+				a {
+
+				}
+			}// li
+		}// menu
+
+		#{&}-menu2 {
+
+			li {
+				a {
+
+				}
+			}// li
+		}// menu2
+
+	}//@root
+}//ccp-footer

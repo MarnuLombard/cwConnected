@@ -1,0 +1,42 @@
+%center {
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+%clearfix {
+	&:after{
+		content:"";
+		display:table;
+		clear:both;
+	}
+}
+
+%screenreader {
+	font: #{0/0} a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+
+.icons,
+%icons {
+	@include icon(); // use default settings
+}
+
+$icons: (
+	'location' '\f100',
+	'' ''
+);
+
+.icon_location,
+%icon_location {
+	@include icon('before', false, 'location');
+}
+
+
+%vertical-center {
+  @include vertical-center;
+}

@@ -1,0 +1,66 @@
+/*
+ * ================================
+ * 				FILE INFORMATION
+ * ================================
+ * color scheme name :		Corruption Watch Connected
+ * version : 							2.0
+ * date : 								Devcember 2013
+ * author of CSS : 				Marnu Lombard / indigo.co.za
+ * libraries : 						Sass, Compass, CSSWizardry Grids, Normalize, Sassy Buttons, Typeplate
+ */
+
+@charset "UTF-8";
+
+// Compass
+@import "compass/support";
+@import "compass/css3";
+
+// Functionals
+@import "vars";
+@import "mixins";
+@import "extends";
+
+// Libraries
+@import "libs/normalize";
+@import "libs/typeplate";
+@import "libs/sassy-buttons";
+@import "libs/csswizardry-grids";
+
+// Styles
+@import "styles/buttons";
+@import "styles/color";
+@import "styles/forms";
+@import "styles/footer";
+@import "styles/header";
+@import "styles/layout";
+@import "styles/partials";
+@import "styles/slides";
+@import "styles/typography";
+
+// Annual report specific styles
+@import "annual-report/ar-color";
+@import "annual-report/ar-layout";
+@import "annual-report/ar-typography";
+
+
+// some test styles {}
+
+.test {
+	padding: 3em;
+}
+
+.test1 {
+	background: $color-secondary_Xlight
+}
+.test2 {
+	background: $color-secondary_light
+}
+.test3 {
+	background: $color-secondary
+}
+.test4 {
+	background: $color-secondary_dark
+}
+.test5 {
+	background: $color-secondary_Xdark
+}

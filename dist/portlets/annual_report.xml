@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dashboards>
+<portal id="portal">
+  <!-- TODO
+    Add keywords
+   -->
+<page name="annual_report.shtml"
+         title="The Corruption Watch Annual Report "
+         description="Some description goes here"
+         keywords="The page keywords"
+         category="annual_report">
+     <row>
+       <column width="100%" class="">
+         <portlet name="ContentPortlet" class="grid" cache="10" cacheType="smart">
+          <!-- TODO
+            Figure out project & wiki & showTitle & contentIsBasedOnUser tags
+            Figure out difference between appendContent/content
+          -->
+
+           <!--<project>${main-profile.uniqueId}</project>
+           <wiki>Tools for your Desktop</wiki>
+           <showTitle>false</showTitle>
+           <contentIsBasedOnUser>true</contentIsBasedOnUser>-->
+           <content><![CDATA[
+              <ul class="one-quarter grid__item AR__sidebar-menu">
+              <li class="AR__sidebar-item">
+                <a href="#introduction" class="AR__sidebar-link">Introduction</a>
+              </li>
+              <li class="AR__sidebar-item">
+                <a href="#glossary" class="AR__sidebar-link">Glossary</a>
+              </li>
+              <li class="AR__sidebar-item">
+                <a href="#exec_foreword" class="AR__sidebar-link">Exec Foreword</a>
+              </li>
+              <li class="AR__sidebar-item">
+                <a href="#data" class="AR__sidebar-link">Data</a>
+              </li>
+              <li class="AR__sidebar-item">
+                <a href="#schools_campaign" class="AR__sidebar-link">Schools Campaign</a>
+              </li>
+              <li class="AR__sidebar-item">
+                <a href="#investigations" class="AR__sidebar-link">Investigations</a>
+              </li>
+              <li class="AR__sidebar-item">
+                <a href="#legal" class="AR__sidebar-link">Legal</a>
+              </li>
+              <li class="AR__sidebar-item">
+                <a href="#funders" class="AR__sidebar-link">Funders</a>
+              </li>
+            </ul><!-- // AR__sidebar-menu -->
+
+            <div class="three-quarters grid__item AR__body">
+              <h1 class="text__primary">What is Corruption Watch? </h1>
+
+              <p class="lead">
+                Corruption Watch is a non-profit organisation that was launched in January 2012.  We rely on the public to report corruption to us. We use the reports as an important source of information to fight corruption and hold leaders accountable for their actions.
+              </p>
+            </div><!-- // AR__body -->
+           ]]></content>
+         </portlet>
+         <portlet name="ContentPortlet" class="grid img-bkg__1">
+           <content><![CDATA[
+            <div class="one-third grid__item AR__body text__white">
+              <img src="img/mobilisation.svg" alt="Mobilisation" />
+              <h3 class="center">Mobilisation</h3>
+              <p class="center">
+                We build campaigns that mobilise people to take a stand against corruption. Our campaigns involve the public, community groups and other organisations such as trade unions.
+              </p>
+            </div>
+
+            <div class="one-third grid__item AR__body text__white">
+              <img src="img/investigation.svg" alt="Investigation" />
+              <h3 class="center">Investigation</h3>
+              <p class="center">
+                We investigate selected reports of alleged acts of corruption, choosing cases that have  the most serious impact on society.  We hand over our findings to the authorities  to take further action and we monitor the progress of each case. We work with mainstream and community media to make  sure that corruption is fully exposed.
+              </p>
+            </div>
+
+            <div class="one-third grid__item AR__body text__white">
+              <img src="img/research.svg" alt="Research" />
+              <h3 class="center">Research</h3>
+              <p class="center">
+                We gather and analyse information to identify patterns and hot spots of corruption. We prepare research reports on these hot spots to expose and find solutions to systemic  corruption. Using our communication platforms  and the media, we share our findings with the  public, like-minded non-governmental organisations and public sector bodies undermined by corruption.
+              </p>
+            </div>
+           ]]></content>
+         </portlet>
+       </column>
+     </row>
+   </page>
+ </portal>
+</dashboards>
