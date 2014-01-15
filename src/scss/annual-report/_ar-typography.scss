@@ -8,6 +8,10 @@
       margin-bottom: 0.6em;
     }
 
+    .seperate {
+      margin-bottom: 2.5em;
+    }
+
     h1 {
       color: $color-secondary_light;
       font-size: 70px;
@@ -39,6 +43,9 @@
 
       }
     }
+    ul {
+      margin-top: 0;
+    }
     cite {
       display: block;
       margin-top: 1em;
@@ -56,6 +63,15 @@
 
     .highlight {
       color: $color-primary;
+    }
+    .lowlight {
+      color: $color-secondary;
+    }
+
+    .header--main {
+      // @extend .highlight;
+      @extend .giga;
+      @extend .text--center;
     }
   }// wrapper
 

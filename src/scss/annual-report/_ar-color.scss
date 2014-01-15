@@ -5,3 +5,20 @@
   }
 
 }
+
+.ar {
+  @include e(wrapper) {
+    .Xlight {
+      margin-bottom: 1em;
+      padding: 2em 1em 0em;
+      background-color: $color-secondary_Xlight;
+      border: 1px solid $color-secondary_light;
+    }
+
+    .primary {
+      margin-top: 2em;
+      padding: 3em 1em 0em;
+      background-color: $color-primary;
+    }
+  }// ar--wapper
+}// ar
