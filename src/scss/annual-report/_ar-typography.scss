@@ -43,8 +43,11 @@
 
       }
     }
-    ul {
+    p {
+     &+ ul,
+     &+ ol {
       margin-top: -2em;
+      }
     }
     cite {
       display: block;

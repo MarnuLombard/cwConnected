@@ -52,3 +52,13 @@
 .widget-footer-contact:after{
 	@extend %clearfix
 }
+
+.float--left {
+  float: left;
+  padding-right: 2em;
+}
+.float--right {
+  float: right;
+  padding-left: 2em;
+
+}
