@@ -19,23 +19,40 @@
   <nav class="ar__nav grid__item two-fifths">
     <span class="nav-link__wrapper">
       <a href="#corruption_fighters" class="nav-link">Corruption fighters Speak Up</a>
-      WHAT IS CORRUPTION WATCH?
+      <!-- WHAT IS CORRUPTION WATCH?
       YOUR VOICE COUNTS
+      WHAT IS CORRUPTION?
+      CORRUPTION TALK -->
     </span>
     <span class="nav-link__wrapper">
       <a href="#on_our_watch" class="nav-link">On Our watch</a>
+      <!-- PROVINCIAL CORRUPTION CONCERNS
+      CORRUPTION IN GOVERNMENT
+      CORRUPTION FIGHTING CHANNELS
+      CORRUPTION INVESTIGATED -->
     </span>
     <span class="nav-link__wrapper">
       <a href="#schools" class="nav-link">Schools</a>
+      <!-- SOUNDING THE SIREN ON CORRUPTION IN SCHOOLS
+      FALLING ON DEAF EARS?
+      ARE OUR SCHOOLS FOR SALE?
+      PUBLIC SCHOOLS’ CORRUPTION LANDSCAPE
+      SCHOOL CORRUPTION
+      WE DON’T HAVE A PRICE!
+      TEACHERS AND PARENTS BECOME CORRUPTION REPORTERS -->
     </span>
     <span class="nav-link__wrapper">
       <a href="#government_ngos" class="nav-link">Government and NGOs</a>
+    <!--   EXPOSED! MVULA TRUST SCANDAL
+      FURTHERING LEGAL ACTION AGAINST THE CONSTRUCTION CARTEL -->
     </span>
     <span class="nav-link__wrapper">
       <a href="#leading_perspective" class="nav-link">Leading Perspective</a>
+      <!-- PROFILE OF A CORRUPTION FIGHTER -->
     </span>
     <span class="nav-link__wrapper">
       <a href="#leadership_profile" class="nav-link">Leadership Profile</a>
+     <!--  LEADERSHIP PROFILE -->
     </span>
     <span class="nav-link__wrapper">
       <a href="#funders_supporters" class="nav-link">Funders and Supporters</a>
@@ -766,7 +783,6 @@
 </section>
 
 <section class="ar__wrapper grid">
-
   <div class="grid__item one-half">
     <h2 class="lowlight">
       Intervention in the Eastern Cape
@@ -1290,10 +1306,9 @@
     <p>
       Her autobiography is titled Strikes Have Followed Me All My Life.
     </p>
-  </div>
 
+  <hr />
 
-  <div class="grid__item one-half">
     <img src="img/board.jpg" alt="Kate O’Regan" class="float--left one-fifth">
     <h3>Kate O’Regan</h3>
     <h4>Mediator and former Constitutional Court judge</h4>
@@ -1309,7 +1324,9 @@
       In the early 1980’s, O’Regan worked in Johannesburg as an attorney, representing trade unions, anti-apartheid organisations and communities facing eviction under apartheid land policy.
     </p>
 
-  <hr />
+  </div>
+
+  <div class="grid__item one-half">
 
     <img src="img/board.jpg" alt="Mary Metcalfe" class="float--left one-fifth">
     <h3>Mary Metcalfe</h3>
@@ -1325,11 +1342,8 @@
     <p>
       Metcalfe was elected as a member of the African National Congress in the Gauteng Provincial Legislature in 1994 and was a member of the executive council for education in the province from 1994 to 1999. This was followed by an appointment as MEC for agriculture, conservation, environment and land. In 2004 she returned to education, joining Wits as head of the School of Education. In 2009 she was appointed director-general of the new national Department of Higher Education and Training and worked in education at the Development Bank of Southern Africa from 2011 to 2013.
     </p>
-  </div>
 
-
-  <div class="grid__item one-half">
-    <hr />
+  <hr />
 
     <img src="img/board.jpg" alt="Mavuso Msimang" class="float--left one-fifth">
     <h3>Mavuso Msimang</h3>
