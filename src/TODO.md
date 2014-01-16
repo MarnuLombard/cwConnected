@@ -5,6 +5,7 @@ TODO
 
 **HTML**
 Content for report corruption modal
+Add link to "CW Conflict of Interest brochure"
 
 **JS**
 Modernizr for a)svg , b) ...

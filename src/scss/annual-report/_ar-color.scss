@@ -20,5 +20,11 @@
       padding: 3em 1em 0em;
       background-color: $color-primary;
     }
+
+    hr {
+      width: 80%;
+      margin-bottom: 3em;
+      border: 1px inset gray;
+    }
   }// ar--wapper
 }// ar
