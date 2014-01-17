@@ -38,7 +38,7 @@
         }
     }
 
-    @if $breakpoint-found == false{
+    @if $breakpoint-found == false {
         @warn "Breakpoint ‘#{$media-query}’ does not exist"
     }
 }

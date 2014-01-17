@@ -13,6 +13,11 @@
       padding: 2em 1em 0em;
       background-color: $color-secondary_Xlight;
       border: 1px solid $color-secondary_light;
+
+      a {
+        color: $color-text !important;
+        text-decoration: underline;
+      }
     }
 
     .primary {

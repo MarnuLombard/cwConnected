@@ -1662,6 +1662,9 @@ strong {
   padding: 2em 1em 0em;
   background-color: #36c5df;
   border: 1px solid #1b96ad; }
+.ar__wrapper .Xlight a, .ar__wrapper--white .Xlight a {
+  color: #202226 !important;
+  text-decoration: underline; }
 .ar__wrapper .primary, .ar__wrapper--white .primary {
   margin-top: 2em;
   padding: 3em 1em 0em;
@@ -1685,8 +1688,20 @@ strong {
   background-color: white; }
 .ar__wrapper--white p, .ar__wrapper--white h2, .ar__wrapper--white h3, .ar__wrapper--white h4, .ar__wrapper--white h5, .ar__wrapper--white h6, .ar__wrapper--white li {
   color: #202226 !important; }
-.ar__wrapper--white p {
+.ar__wrapper--white p, .ar__wrapper--white ol, .ar__wrapper--white ul {
   font-family: "Lato-Regular", "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+.ar__wrapper--white strong {
+  color: #115d6b; }
+.ar__wrapper--blockquote {
+  display: table; }
+.ar__wrapper--blockquote blockquote, .ar__wrapper--blockquote figure {
+  display: table-cell; }
+.ar__wrapper--blockquote figure {
+  overflow: hidden; }
+.ar__wrapper--blockquote figure img {
+  max-width: none;
+  min-width: 100%;
+  width: 130%; }
 .ar__nav {
   padding-left: 0;
   background-color: #115d6b;

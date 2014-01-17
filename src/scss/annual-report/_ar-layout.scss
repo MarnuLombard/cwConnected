@@ -24,10 +24,34 @@
       li {
         color: $color-text !important;
       }
-      p {
+      p,
+      ol,
+      ul {
         font-family: $font-body_alt;
       }
+      strong {
+        color: $color-secondary;
+      }
     }//ar__wrapper--white
+
+    @include m(blockquote) {
+      display: table;
+
+      blockquote,
+      figure {
+        display: table-cell;
+      }
+
+      figure {
+        overflow: hidden;
+
+        img {
+          max-width: none;
+          min-width: 100%;
+          width: 130%;
+        }
+      }// fig
+    }// ar__wrapper--blockquote
 
   }// wrapper
 

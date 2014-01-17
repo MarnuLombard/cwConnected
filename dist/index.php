@@ -85,7 +85,7 @@
 
 <section class="ar__wrapper grid">
 
-   <div class="grid__item one-half">
+   <div class="grid__item two-thirds">
       <h2>Remembering Nelson Rolihlahla Mandela &emsp;
       <small>1918 - 2013</small></h2>
       <p>
@@ -99,7 +99,9 @@
       </p>
     </div>
 
-    <img src="img/mandela.jpg" alt="Nelson Mandela" class="grid__item one-half" />
+    <div class="grid__item one-third text--center">
+      <img src="img/mandela.jpg" alt="Nelson Mandela" class="three-quarters" />
+    </div>
 </section>
 
 <section class="ar__wrapper grid bkg-img bkg-img--1">
@@ -137,9 +139,6 @@
 
     <p>
       Since the establishment of Corruption Watch in January 2012 we have received over 5 000 reports from the public. These reports are critical, enabling us to uncover and expose corruption and those who hold our nation to ransom. Our team of journalists, investigators, lawyers, researchers, data specialists and administrative staff and social justice activists are by nature, corruption fighters – and we are being joined by thousands more everyday.
-    </p>
-    <p>
-      Together, we stand against abuse of public resources for private gain.
     </p>
   </div>
 </section>
@@ -227,7 +226,7 @@
   </div>
 </section>
 
-<section class="ar__wrapper grid">
+<section class="ar__wrapper grid ar__wrapper--blockquote">
   <blockquote class="grid__item one-half">
     One of the greatest achievements of our time in South Africa has been the establishment of a Constitutional Democracy. Deepening it requires accountability, transparency, ethical leadership, an end to corruption, a passionate commitment to the promotion of the Common Good as well as a vigilant and robust civil society that is the conscience of the nation.
     <footer><cite>
@@ -235,7 +234,9 @@
     </cite></footer>
   </blockquote>
 
-  <img src="img/archbishop.jpg" alt="Archbishop Njongo Ndungane" class="grid__item one-half" />
+  <figure class="grid__item one-half">
+    <img src="img/archbishop.jpg" alt="Archbishop Njongo Ndungane" />
+  </figure>
 </section>
 
 <section class="ar__wrapper grid">
@@ -250,15 +251,23 @@
     Corruption is the abuse of public resources to enrich or give unfair advantage to individuals, their family or their friends. Corruption Watch is concerned with any such abuse of power or position by anyone at any level of government or in business.
   </h4>
 
+</section>
+<section class="ar__wrapper grid ar__wrapper--blockquote">
 
-  <blockquote class="grid__item two-thirds">
+  <blockquote class="grid__item one-half">
     Corruption in South Africa is a fetter on economic growth and unless dealt with effectively, could have devastating long-term consequences on government's ability to deliver basic services and grow confidence in the country’s institutions.
     <footer><cite>
       David Lewis
     </cite></footer>
   </blockquote>
 
-  <img src="img/david.jpg" alt="David Lewis" class="grid__item one-third" />
+  <figure class="grid__item one-half">
+    <img src="img/david.jpg" alt="David Lewis" />
+  </figure>
+
+</section>
+
+
 
 
   <div class="grid__item one-whole">
@@ -892,8 +901,7 @@
 <!--      End schools         -->
 <!--    ===============       -->
 
-
-<section class="ar__wrapper grid">
+<section class="ar__wrapper grid ar__wrapper--blockquote">
   <blockquote class="grid__item three-quarters">
     We have reason to be proud of our achievements over the past twenty years as a free and democratic country. Corruption in public places, if not exposed and vigorously opposed, will certainly limit economic development, deepen poverty and lead to unmanageable social instability.
     <footer><cite>
@@ -901,7 +909,15 @@
     </cite></footer>
   </blockquote>
 
-  <img src="img/mavuso.jpg" alt="Mavuso Msimang" class="grid__item one-quarter" />
+  <figure class="grid__item one-quarter">
+    <img src="img/mavuso.jpg" alt="Mavuso Msimang" />
+  </figure>
+</section>
+
+
+<section class="ar__wrapper grid">
+
+
 </section>
 
 
@@ -1100,8 +1116,8 @@
   </div>
 
 
-  <div class="grid__item one-third Xlight">
-
+  <div class="grid__item one-third">
+    <div class="Xlight">
     <h3>Clarifying the meaning of ‘conflicts of interest’</h3>
 
     <h5>
@@ -1125,6 +1141,7 @@
       <a href="#">Read more about what South African law says about conflicts of interest.</a>
       <!-- (Insert hyperlink to the CW Conflict of Interest brochure) -->
     </p>
+  </div>
   </div>
 </section>
 
@@ -1262,7 +1279,7 @@
 
   <div class="grid__item one-half">
 
-    <img src="img/board.jpg" alt="Archbishop Njongonkulu Ndungane" class="float--left one-fifth">
+    <img src="img/board/Ndungane.jpg" alt="Archbishop Njongonkulu Ndungane" class="float--left one-fifth">
     <h3>Archbishop Njongonkulu Ndungane</h3>
     <h4>Former Anglican Archbishop of Cape Town</h4>
 
@@ -1284,7 +1301,7 @@
 
   <hr />
 
-    <img src="img/board.jpg" alt="Adila Hassim" class="float--left one-fifth">
+    <img src="img/board/Hassim.jpg" alt="Adila Hassim" class="float--left one-fifth">
     <h3>Adila Hassim</h3>
     <h4>Advocate and director of litigation and legal services at the Aids Law Project</h4>
 
@@ -1301,7 +1318,7 @@
 
   <hr />
 
-    <img src="img/board.jpg" alt="Alice Brown" class="float--left one-fifth">
+    <img src="img/board/Brown.jpg" alt="Alice Brown" class="float--left one-fifth">
     <h3>Alice Brown</h3>
     <h4>International human rights advocate</h4>
 
@@ -1324,7 +1341,7 @@
 
   <hr />
 
-    <img src="img/board.jpg" alt="David Lewis" class="float--left one-fifth">
+    <img src="img/board/Lewis.jpg" alt="David Lewis" class="float--left one-fifth">
     <h3>David Lewis</h3>
     <h4>Former Competition Tribunal chairperson</h4>
 
@@ -1347,7 +1364,7 @@
 
   <hr />
 
-    <img src="img/board.jpg" alt="Emma Mashinini" class="float--left one-fifth">
+    <img src="img/board/Mashinini.jpg" alt="Emma Mashinini" class="float--left one-fifth">
     <h3>Emma Mashinini</h3>
     <h4>Former general secretary of the Commercial, Catering and Allied Workers’ Union of South Africa</h4>
 
@@ -1364,7 +1381,7 @@
 
   <hr />
 
-    <img src="img/board.jpg" alt="Kate O’Regan" class="float--left one-fifth">
+    <img src="img/board/ORegan.jpg" alt="Kate O’Regan" class="float--left one-fifth">
     <h3>Kate O’Regan</h3>
     <h4>Mediator and former Constitutional Court judge</h4>
 
@@ -1383,7 +1400,7 @@
 
   <div class="grid__item one-half">
 
-    <img src="img/board.jpg" alt="Mary Metcalfe" class="float--left one-fifth">
+    <img src="img/board/Metcalfe.jpg" alt="Mary Metcalfe" class="float--left one-fifth">
     <h3>Mary Metcalfe</h3>
     <h4>Educationist and distinguished academic</h4>
 
@@ -1400,7 +1417,7 @@
 
   <hr />
 
-    <img src="img/board.jpg" alt="Mavuso Msimang" class="float--left one-fifth">
+    <img src="img/board/Msimang.jpg" alt="Mavuso Msimang" class="float--left one-fifth">
     <h3>Mavuso Msimang</h3>
     <h4>Former Home Affairs director general</h4>
 
@@ -1420,7 +1437,7 @@
 
   <hr />
 
-    <img src="img/board.jpg" alt="Vusi Pikoli" class="float--left one-fifth">
+    <img src="img/board/Pikoli.jpg" alt="Vusi Pikoli" class="float--left one-fifth">
     <h3>Vusi Pikoli</h3>
     <h4>Former head of the National Prosecuting Authority</h4>
 
@@ -1443,7 +1460,7 @@
 
   <hr />
 
-    <img src="img/board.jpg" alt="Vuyiseka Dubula" class="float--left one-fifth">
+    <img src="img/board/Dubula.jpg" alt="Vuyiseka Dubula" class="float--left one-fifth">
     <h3>Vuyiseka Dubula</h3>
     <h4>General secretary of the Treatment Action Campaign</h4>
 
@@ -1463,7 +1480,7 @@
 
   <hr />
 
-    <img src="img/board.jpg" alt="Zwelinzima Vavi" class="float--left one-fifth">
+    <img src="img/board/Vavi.jpg" alt="Zwelinzima Vavi" class="float--left one-fifth">
     <h3>Zwelinzima Vavi</h3>
     <h4>General secretary of the Congress of South African Trade Unions <em>(suspended)</em></h4>
 
