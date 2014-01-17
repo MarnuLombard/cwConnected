@@ -13,49 +13,49 @@
   =           Start Annual Report Content           =
   ===================================================
 -->
-
 <section class="ar__wrapper grid">
+  <a name="top"></a>
 
   <nav class="ar__nav grid__item two-fifths">
     <span class="nav-link__wrapper">
-      <a href="#corruption_fighters" class="nav-link">Corruption fighters Speak Up</a>
-      <!-- WHAT IS CORRUPTION WATCH?
-      YOUR VOICE COUNTS
-      WHAT IS CORRUPTION?
-      CORRUPTION TALK -->
+      <a href="#corruption_fighters" class="nav-link">Corruption Fighters Speak Up</a>
+        <a href="#what_is_corruption_watch" class="nav-link--sub">What is Corruption Watch?</a>
+        <a href="#your_voice_counts" class="nav-link--sub">Your Voice Counts</a>
+        <a href="#what_is_corruption" class="nav-link--sub">What is Corruption?</a>
+        <a href="#corruption_talk" class="nav-link--sub">Corruption Talk</a>
     </span>
     <span class="nav-link__wrapper">
-      <a href="#on_our_watch" class="nav-link">On Our watch</a>
-      <!-- PROVINCIAL CORRUPTION CONCERNS
-      CORRUPTION IN GOVERNMENT
-      CORRUPTION FIGHTING CHANNELS
-      CORRUPTION INVESTIGATED -->
+      <a href="#on_our_watch" class="nav-link">On Our Watch</a>
+        <a href="#corruption_reported" class="nav-link--sub">Corruption Reported</a>
+        <a href="#provincial_corruption_concerns" class="nav-link--sub">Provincial Corruption Concerns</a>
+        <a href="#corruption_in_government" class="nav-link--sub">Corruption in Government</a>
+        <a href="#corruption_fighting_channels" class="nav-link--sub">Corruption Fighting Channels</a>
+        <a href="#corruption_investigated" class="nav-link--sub">Corruption Investigated</a>
     </span>
     <span class="nav-link__wrapper">
       <a href="#schools" class="nav-link">Schools</a>
-      <!-- SOUNDING THE SIREN ON CORRUPTION IN SCHOOLS
-      FALLING ON DEAF EARS?
-      ARE OUR SCHOOLS FOR SALE?
-      PUBLIC SCHOOLS’ CORRUPTION LANDSCAPE
-      SCHOOL CORRUPTION
-      WE DON’T HAVE A PRICE!
-      TEACHERS AND PARENTS BECOME CORRUPTION REPORTERS -->
+        <a href="#sounding_the_siren" class="nav-link--sub">Sounding The Siren On Corruption In Schools</a>
+      <a href="#falling_on_deaf_ears" class="nav-link--sub">Falling On Deaf Ears?</a>
+      <a href="#schools_for_sale" class="nav-link--sub">Are Our Schools For Sale?</a>
+      <a href="#public_schools" class="nav-link--sub">Public Schools’ Corruption Landscape</a>
+      <a href="#school_corruption" class="nav-link--sub">School Corruption</a>
+      <a href="#we_dont_have_a_price" class="nav-link--sub">We Don’t Have A Price!</a>
+      <a href="#corruption_reporters" class="nav-link--sub">Teachers And Parents Become Corruption Reporters</a>
     </span>
     <span class="nav-link__wrapper">
       <a href="#government_ngos" class="nav-link">Government and NGOs</a>
-    <!--   EXPOSED! MVULA TRUST SCANDAL
-      FURTHERING LEGAL ACTION AGAINST THE CONSTRUCTION CARTEL -->
+        <a href="#mvula_trust_scandal" class="nav-link--sub">Exposed! Mvula Trust Scandal</a>
+        <a href="#construction_cartel" class="nav-link--sub">Furthering Legal Action Against The Construction Cartel</a>
     </span>
     <span class="nav-link__wrapper">
       <a href="#leading_perspective" class="nav-link">Leading Perspective</a>
-      <!-- PROFILE OF A CORRUPTION FIGHTER -->
+        <a href="#corruption_fighter" class="nav-link--sub">Profile of a Corruption Fighter</a>
     </span>
     <span class="nav-link__wrapper">
       <a href="#leadership_profile" class="nav-link">Leadership Profile</a>
-     <!--  LEADERSHIP PROFILE -->
     </span>
     <span class="nav-link__wrapper">
-      <a href="#funders_supporters" class="nav-link">Funders and Supporters</a>
+      <a href="#funders" class="nav-link">Funders and Supporters</a>
     </span>
     <span class="nav-link__wrapper">
       <a href="#contact" class="nav-link">Contact Corruption Watch</a>
@@ -145,6 +145,9 @@
 </section>
 
 <section class="ar__wrapper grid">
+  <a name="what_is_corruption_watch"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
+
   <h1 class="grid__item one-whole">
     What is Corruption Watch?
   </h1>
@@ -198,7 +201,8 @@
 </section>
 
 <section class="ar__wrapper grid">
-
+  <a name="your_voice_counts"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
   <h1 class="grid__item one-whole text--center">
     Your voice counts
   </h1>
@@ -235,6 +239,9 @@
 </section>
 
 <section class="ar__wrapper grid">
+  <a name="what_is_corruption"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
+
   <h1 class="grid__item one-whole text--center">
     What is corruption?
   </h1>
@@ -267,6 +274,8 @@
 </section>
 
 <section class="ar__wrapper--white grid">
+  <a name="corruption_talk"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
   <h1 class="grid__item one-whole text--center">
     Corruption talk
   </h1>
@@ -304,6 +313,7 @@
 
 <section class="ar__wrapper grid">
   <a name="on_our_watch"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole header--main">
     On our watch
@@ -312,7 +322,7 @@
 
 <section class="ar__wrapper grid">
   <div class="grid__item one-half">
-    <h1 class=" highlight">
+    <h1 class="highlight">
       Corruption exposed
     </h1>
     <h2 class="">Ripping off South Africa’s price tag!</h2>
@@ -327,6 +337,9 @@
 </section>
 
 <section class="ar__wrapper grid">
+  <a name="corruption_reported"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
+
   <div class="grid__item six-tenths">
     <h1 class="highlight">
       Corruption reported
@@ -356,6 +369,10 @@
 </section>
 
 <section class="ar__wrapper grid">
+  <a name="provincial_corruption_concerns"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
+
+
   <h1 class="grid__item one-whole">
     Provincial corruption concerns
   </h1>
@@ -371,6 +388,9 @@
 </section>
 
 <section class="ar__wrapper grid">
+  <a name="corruption_in_government"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
+
   <div class="grid__item one-whole">
     <h1 class="">
       Corruption in Government
@@ -393,6 +413,9 @@
 </section>
 
 <section class="ar__wrapper grid">
+  <a name="corruption_fighting_channels"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
+
   <div class="grid__item one-whole">
     <h1>
       Corruption fighting channels
@@ -426,6 +449,9 @@
 </section>
 
 <section class="ar__wrapper grid">
+  <a name="corruption_investigated"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
+
   <h1 class="grid__item one-whole">
     Corruption investigated
   </h1>
@@ -448,7 +474,6 @@
   <div class="grid__item one-whole text--center">
     <img src="img/government_graph--2.svg" alt="" />
   </div>
-
 </section>
 
 <section class="ar__wrapper grid">
@@ -462,6 +487,7 @@
 
 <section class="ar__wrapper grid">
   <a name="schools"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole header--main">
     Schools
@@ -469,6 +495,8 @@
 </section>
 
 <section class="ar__wrapper grid">
+  <a name="sounding_the_siren"></a>
+
   <div class="grid__item one-whole">
     <h1 class="highlight">
       Sounding the siren on corruption in schools
@@ -508,6 +536,9 @@
     <p>
       The Mxit survey, the first in a series of studies that Corruption Watch plans to conduct into corruption at schools, identified common forms of corruption such as the misuse of school finances and property, learners having to do favours in exchange for marks and nepotism in the appointment of staff.
     </p>
+    <p>
+      <a href="#" target="_blank">See the survey here.</a>
+    </p>
   </div>
   <div class="grid__item one-half">
     <p>
@@ -526,6 +557,8 @@
 </section>
 
 <section class="ar__wrapper--white grid">
+  <a name="falling_on_deaf_ears"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
 
   <div class="grid__item three-fifths">
     <h1 class="highlight">Falling on deaf ears?</h1>
@@ -543,6 +576,8 @@
 </section>
 
 <section class="ar__wrapper grid">
+  <a name="schools_for_sale"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
 
   <div class="grid__item one-whole text--center">
     <h1 class="">
@@ -607,6 +642,8 @@
 </section>
 
 <section class="ar__wrapper grid">
+  <a name="public_schools"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole">
     Public schools’ corruption landscape
@@ -649,6 +686,9 @@
 </section>
 
 <section class="ar__wrapper--white grid">
+  <a name="school_corruption"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
+
   <div class="grid__item two-thirds">
     <h1>
       School corruption
@@ -671,6 +711,9 @@
 </section>
 
 <section class="ar__wrapper grid">
+  <a name="we_dont_have_a_price"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
+
   <h1 class="grid__item one-whole">
     We don’t have a price!
   </h1>
@@ -739,6 +782,9 @@
 </section>
 
 <section class="ar__wrapper--white grid">
+  <a name="corruption_reporters"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
+
   <div class="grid__item one-whole text--center">
     <h1>
       Teachers and parents become corruption reporters
@@ -860,7 +906,8 @@
 
 
 <section class="ar__wrapper grid">
-  <a name="government_and_ngos"></a>
+  <a name="government_ngos"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole header--main">
     Government and NGOS
@@ -868,6 +915,8 @@
 </section>
 
 <section class="ar__wrapper grid">
+  <a name="mvula_trust_scandal"></a>
+
   <div class="grid__item one-half">
     <h1 class="highlight">
       Exposed! Mvula Trust scandal
@@ -1021,6 +1070,8 @@
 </section>
 
 <section class="ar__wrapper--white grid">
+  <a name="construction_cartel"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
   <div class="grid__item two-thirds">
     <h1 class="highlight">
       Furthering legal action against the Construction Cartel
@@ -1083,6 +1134,7 @@
 
 <section class="ar__wrapper grid">
   <a name="leading_perspective"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole header--main">
     Leading perspective
@@ -1174,6 +1226,9 @@
 </section>
 
 <section class="ar__wrapper--white grid">
+  <a name="corruption_fighter"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
+
   <div class="grid__item one-whole text--center">
     <h1>
       Profile of a corruption fighter
@@ -1191,6 +1246,7 @@
 
 <section class="ar__wrapper grid">
   <a name="leadership_profile"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole header--main">
     Leadership profile
@@ -1198,7 +1254,6 @@
 </section>
 
 <section class="ar__wrapper grid">
-
   <div class="grid__item one-whole">
     <p class="lead">
       The nine members of our board guide our mission and vision. It is their responsibility to ensure that Corruption Watch meets its legal requirements, to make sure the organisation is well run and is on a sound financial footing and that all its constituencies are represented.
@@ -1434,99 +1489,108 @@
 
 <section class="ar__wrapper grid">
   <a name="funders"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole header--main">
     Funders &amp; supporters
   </h1>
 </section>
 
-
-
-
 <section class="ar__wrapper grid">
+  <div class="grid__item one-half">
+    <h3>Andrew Roberts Memorial Trust</h3>
+    <p>
+      The Andrew Roberts Memorial Fund is a family charity that supports and further develops social justice projects in South Africa. The fund was started by Dr Mary Ellis in remembrance of her father, Dr Andrew Roberts.
+    </p>
 
-<div class="grid__item one-half">
-  <h3>Andrew Roberts Memorial Trust</h3>
-  <p>
-    The Andrew Roberts Memorial Fund is a family charity that supports and further develops social justice projects in South Africa. The fund was started by Dr Mary Ellis in remembrance of her father, Dr Andrew Roberts.
-  </p>
+    <h3>Atlantic Philanthropies</h3>
+    <p>
+      The Atlantic Philanthropies are dedicated to bringing about a lasting change in the lives of the disadvantaged and vulnerable people. Atlantic is a limited life foundation focused on four critical social issues, namely ageing, children and youth, population health as well as reconciliation and human rights. Programmes funded by the Foundation operate in Australia, Bermuda, Northern Ireland, the Republic of Ireland, South Africa, the United States and Vietnam.
+    </p>
 
-  <h3>Atlantic Philanthropies</h3>
-  <p>
-    The Atlantic Philanthropies are dedicated to bringing about a lasting change in the lives of the disadvantaged and vulnerable people. Atlantic is a limited life foundation focused on four critical social issues, namely ageing, children and youth, population health as well as reconciliation and human rights. Programmes funded by the Foundation operate in Australia, Bermuda, Northern Ireland, the Republic of Ireland, South Africa, the United States and Vietnam.
-  </p>
+    <h3>Aveng Group</h3>
+    <p>
+      The Aveng Group, which operates in construction and engineering based in South Africa, focuses on a number of market sectors including power, mining, infrastructure, commercial and industrial, oil and gas. The group believes that elected politicians and civil servants are not the only people responsible for upholding values of trust and integrity in society.
+    </p>
 
-  <h3>Aveng Group</h3>
-  <p>
-    The Aveng Group, which operates in construction and engineering based in South Africa, focuses on a number of market sectors including power, mining, infrastructure, commercial and industrial, oil and gas. The group believes that elected politicians and civil servants are not the only people responsible for upholding values of trust and integrity in society.
-  </p>
+    <h3>Bertha Foundation</h3>
+    <p>
+      The Bertha Foundation is dedicated to supporting judicial and non-judicial justice initiatives to protect basic human rights. It is also involved in social movements, serving the public interest, improving the quality of lives and supporting new generations of activists.
+    </p>
 
-  <h3>Bertha Foundation</h3>
-  <p>
-    The Bertha Foundation is dedicated to supporting judicial and non-judicial justice initiatives to protect basic human rights. It is also involved in social movements, serving the public interest, improving the quality of lives and supporting new generations of activists.
-  </p>
+    <h3>Claude Leon Foundation</h3>
+    <p>
+      The Claude Leon Foundation is a charitable trust established in 1963 and works in the fields of education and human rights. The foundation supports non-governmental organisations that are at the forefront of defending democracy and better education in South Africa, and promoting good governance and effective service delivery.
+    </p>
 
-  <h3>Claude Leon Foundation</h3>
-  <p>
-    The Claude Leon Foundation is a charitable trust established in 1963 and works in the fields of education and human rights. The foundation supports non-governmental organisations that are at the forefront of defending democracy and better education in South Africa, and promoting good governance and effective service delivery.
-  </p>
+    <h3>Ford Foundation </h3>
+    <p>
+      The Ford Foundation is an independent non-profit, non-governmental organisation which supports visionary leaders and organisations on the frontlines of social change. The Foundation encourages initiatives by those living and working closest to where problems are located, promotes collaboration among the non-profit, government and business sectors, and strives to ensure participation by men and women from diverse communities and all levels of society.
+    </p>
 
-  <h3>Ford Foundation </h3>
-  <p>
-    The Ford Foundation is an independent non-profit, non-governmental organisation which supports visionary leaders and organisations on the frontlines of social change. The Foundation encourages initiatives by those living and working closest to where problems are located, promotes collaboration among the non-profit, government and business sectors, and strives to ensure participation by men and women from diverse communities and all levels of society.
-  </p>
+    <h3>Heinrich Böll Stiftung</h3>
+    <p>
+      Heinrich Böll Stiftung (HBS) is a legally autonomous and intellectually open political foundation. The organisation’s foremost task is civic education in Germany and abroad, with the aim of promoting informed democratic opinion. In addition, the Heinrich Böll Foundation supports artistic and cultural as well as scholarly projects, and cooperation in the development field.
+    </p>
+  </div>
+  <div class="grid__item one-half">
+    <h3>Hivos</h3>
+    <p>
+      The Human Institute for Cooperation with Developing Countries (Hivos) is an international development organisation guided by humanist values. Together with local civil society organisations in developing countries, Hivos wants to contribute to a free, fair and sustainable world.
+    </p>
 
-  <h3>Heinrich Böll Stiftung</h3>
-  <p>
-    Heinrich Böll Stiftung (HBS) is a legally autonomous and intellectually open political foundation. The organisation’s foremost task is civic education in Germany and abroad, with the aim of promoting informed democratic opinion. In addition, the Heinrich Böll Foundation supports artistic and cultural as well as scholarly projects, and cooperation in the development field.
-  </p>
-</div>
-<div class="grid__item one-half">
-  <h3>Hivos</h3>
-  <p>
-    The Human Institute for Cooperation with Developing Countries (Hivos) is an international development organisation guided by humanist values. Together with local civil society organisations in developing countries, Hivos wants to contribute to a free, fair and sustainable world.
-  </p>
+    <h3>Millennium Trust</h3>
+    <p>
+      The Millennium Trust is a private and independent trust that supports innovative approaches to sustaining economic growth, high quality education, informed public debate, independent democratic institutions and efficient service delivery in South Africa.
+    </p>
 
-  <h3>Millennium Trust</h3>
-  <p>
-    The Millennium Trust is a private and independent trust that supports innovative approaches to sustaining economic growth, high quality education, informed public debate, independent democratic institutions and efficient service delivery in South Africa.
-  </p>
+    <h3>Openheimer Memorial Trust </h3>
+    <p>
+      The Openheimer Memorial Trust primarily provides study grants to deserving South African post graduate students and academics.
+    </p>
 
-  <h3>Openheimer Memorial Trust </h3>
-  <p>
-    The Openheimer Memorial Trust primarily provides study grants to deserving South African post graduate students and academics.
-  </p>
+    <h3>Open Society</h3>
+    <p>
+      The Open Society Foundation for South Africa is part of the international Soros Foundations Network. It is a grant-making foundation that encourages new approaches to an open society in South Africa, supporting activities in the fields of human rights, media, criminal justice and governance.
+    </p>
 
-  <h3>Open Society</h3>
-  <p>
-    The Open Society Foundation for South Africa is part of the international Soros Foundations Network. It is a grant-making foundation that encourages new approaches to an open society in South Africa, supporting activities in the fields of human rights, media, criminal justice and governance.
-  </p>
+    <h3>Raith Foundation </h3>
+    <p>
+      The Raith Foundation aims to further a just and fair society in which the State and the private sector are both held accountable for their actions.
+    </p>
 
-  <h3>Raith Foundation </h3>
-  <p>
-    The Raith Foundation aims to further a just and fair society in which the State and the private sector are both held accountable for their actions.
-  </p>
+    <h3>SAB Limited </h3>
+    <p>
+      South African Breweries (SAB) is the local subsidiary of SABMiller, one of the world’s largest brewers by volume. This corporation, which is South Africa’s premier brewer and leading distributor of beer and soft drinks, aims to play a formative role in tackling social and health-related challenges in the country.
+    </p>
 
-  <h3>SAB Limited </h3>
-  <p>
-    South African Breweries (SAB) is the local subsidiary of SABMiller, one of the world’s largest brewers by volume. This corporation, which is South Africa’s premier brewer and leading distributor of beer and soft drinks, aims to play a formative role in tackling social and health-related challenges in the country.
-  </p>
+    <h3>Sigrid Rausing Trust</h3>
+    <p>
+      The Sigrid Rausing Trust is a grant-making foundation, which focuses on supporting human rights globally. Since being founded by Sigrid Rausing in 1995, the Trust has donated approximately R2.7-billion to human rights organisations worldwide.
+    </p>
 
-  <h3>Sigrid Rausing Trust</h3>
-  <p>
-    The Sigrid Rausing Trust is a grant-making foundation, which focuses on supporting human rights globally. Since being founded by Sigrid Rausing in 1995, the Trust has donated approximately R2.7-billion to human rights organisations worldwide.
-  </p>
-
-  <h2>Media Partners</h2>
-  <strong>City Press</strong> <br />
-  <strong>Jacaranda FM</strong> <br />
-  <strong>Jozi FM</strong> <br />
-  <strong>Radio702</strong> <br />
-  <strong>The Sunday Times</strong> <br />
-  <strong>The Star Newspaper</strong> <br />
-</div>
+    <h2>Media Partners</h2>
+    <strong>City Press</strong> <br />
+    <strong>Jacaranda FM</strong> <br />
+    <strong>Jozi FM</strong> <br />
+    <strong>Radio702</strong> <br />
+    <strong>The Sunday Times</strong> <br />
+    <strong>The Star Newspaper</strong> <br />
+  </div>
 </section>
 
+<!--    ============================    -->
+<!--      End Funders & Supporters      -->
+<!--    ============================    -->
+
+<section class="ar__wrapper grid">
+  <a name="contact"></a>
+  <a href="#top" class="link--toTop">Back to top</a>
+
+  <h1 class="grid__item one-whole header--main">
+    Contact Corruption Watch
+  </h1>
+</section>
 
 
 <!--

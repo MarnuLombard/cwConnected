@@ -79,6 +79,18 @@
     pre {
       font-family: $font-body !important;
     }
+
+     .link--toTop {
+      @extend .grid__item;
+      @extend .one-whole;
+      @extend .text--center;
+      margin-bottom: 2em;
+
+      &:after {
+        content: "\2003 \2003 \2191";
+      }
+    }// link--toTop
+
   }// wrapper
 
 
