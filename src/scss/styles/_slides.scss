@@ -1,6 +1,14 @@
+// home slider
 #ccp-body-home .portletTable1 {
-	margin-bottom: 3em;
-}
+	// hack to make the grey cover the white
+	margin: -45px 0 3em -35px;
+
+	.widget-home-autoscroller-portletWindowBackground {
+		.portletWrapper {
+			width: 1200px !important;
+		}
+	}
+}// #ccp-body-home .portletTable1
 
 /* Let's add some specificity to this bitch */
 body[id^="ccp-body"] div[id^="portletWindow"]{
@@ -32,10 +40,15 @@ body[id^="ccp-body"] div[id^="portletWindow"]{
 			background-image: none;
 		}
 	}// slide
+
+
+
+
 	// the slider's closest wrapper
+
 .yui-carousel{
 	@extend %clearfix;
-	padding: 2em 70px 0;
+	padding: 2em 10	0px 0;
 
 
 	@at-root {

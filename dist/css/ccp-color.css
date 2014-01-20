@@ -508,19 +508,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.41rem; }
 
 .alpha, h1 {
-  font-size: 60px;
-  font-size: 3.33rem;
-  margin-bottom: 0.5rem; }
-
-.beta, h2, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide h2 {
   font-size: 48px;
   font-size: 2.67rem;
   margin-bottom: 0.62rem; }
 
+.beta, h2, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide h2 {
+  font-size: 38px;
+  font-size: 2.11rem;
+  margin-bottom: 0.78rem; }
+
 .gamma, h3, .special_button, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a, .portlet-section-body h1, .vcard h2 {
-  font-size: 36px;
-  font-size: 2rem;
-  margin-bottom: 0.83rem; }
+  font-size: 30px;
+  font-size: 1.67rem;
+  margin-bottom: 0.99rem; }
 
 .delta, h4, .portletWrapper h2 {
   font-size: 24px;
@@ -722,7 +722,7 @@ p + .drop-cap {
 .opera:-o-prefocus, .grid {
   word-spacing: -0.43em; }
 
-.grid__item, .ar__nav, .ar__section, .ar__wrapper .link--toTop, .ar__wrapper--white .link--toTop {
+.grid__item, .ar__nav, .ar__section, .link--toTop {
   display: inline-block;
   padding-left: 24px;
   vertical-align: top;
@@ -736,42 +736,42 @@ p + .drop-cap {
 .grid--rev {
   direction: rtl;
   text-align: left; }
-.grid--rev > .grid__item, .grid--rev > .ar__nav, .grid--rev > .ar__section, .ar__wrapper .grid--rev > .link--toTop, .ar__wrapper--white .grid--rev > .link--toTop {
+.grid--rev > .grid__item, .grid--rev > .ar__nav, .grid--rev > .ar__section, .grid--rev > .link--toTop {
   direction: ltr;
   text-align: left; }
 
 .grid--full {
   margin-left: 0; }
-.grid--full > .grid__item, .grid--full > .ar__nav, .grid--full > .ar__section, .ar__wrapper .grid--full > .link--toTop, .ar__wrapper--white .grid--full > .link--toTop {
+.grid--full > .grid__item, .grid--full > .ar__nav, .grid--full > .ar__section, .grid--full > .link--toTop {
   padding-left: 0; }
 
 .grid--right {
   text-align: right; }
-.grid--right > .grid__item, .grid--right > .ar__nav, .grid--right > .ar__section, .ar__wrapper .grid--right > .link--toTop, .ar__wrapper--white .grid--right > .link--toTop {
+.grid--right > .grid__item, .grid--right > .ar__nav, .grid--right > .ar__section, .grid--right > .link--toTop {
   text-align: left; }
 
 .grid--center {
   text-align: center; }
-.grid--center > .grid__item, .grid--center > .ar__nav, .grid--center > .ar__section, .ar__wrapper .grid--center > .link--toTop, .ar__wrapper--white .grid--center > .link--toTop {
+.grid--center > .grid__item, .grid--center > .ar__nav, .grid--center > .ar__section, .grid--center > .link--toTop {
   text-align: left; }
 
-.grid--middle > .grid__item, .grid--middle > .ar__nav, .grid--middle > .ar__section, .ar__wrapper .grid--middle > .link--toTop, .ar__wrapper--white .grid--middle > .link--toTop {
+.grid--middle > .grid__item, .grid--middle > .ar__nav, .grid--middle > .ar__section, .grid--middle > .link--toTop {
   vertical-align: middle; }
 
-.grid--bottom > .grid__item, .grid--bottom > .ar__nav, .grid--bottom > .ar__section, .ar__wrapper .grid--bottom > .link--toTop, .ar__wrapper--white .grid--bottom > .link--toTop {
+.grid--bottom > .grid__item, .grid--bottom > .ar__nav, .grid--bottom > .ar__section, .grid--bottom > .link--toTop {
   vertical-align: bottom; }
 
 .grid--narrow {
   margin-left: -12px; }
-.grid--narrow > .grid__item, .grid--narrow > .ar__nav, .grid--narrow > .ar__section, .ar__wrapper .grid--narrow > .link--toTop, .ar__wrapper--white .grid--narrow > .link--toTop {
+.grid--narrow > .grid__item, .grid--narrow > .ar__nav, .grid--narrow > .ar__section, .grid--narrow > .link--toTop {
   padding-left: 12px; }
 
 .grid--wide {
   margin-left: -48px; }
-.grid--wide > .grid__item, .grid--wide > .ar__nav, .grid--wide > .ar__section, .ar__wrapper .grid--wide > .link--toTop, .ar__wrapper--white .grid--wide > .link--toTop {
+.grid--wide > .grid__item, .grid--wide > .ar__nav, .grid--wide > .ar__section, .grid--wide > .link--toTop {
   padding-left: 24px; }
 
-.one-whole, .ar__wrapper .link--toTop, .ar__wrapper--white .link--toTop {
+.one-whole, .link--toTop {
   width: 100%; }
 
 .one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths {
@@ -1161,6 +1161,10 @@ p + .drop-cap {
 =            Define the styles            =
 =========================================*/
 .ccp-page-body #ccp-signup .textbox .buttons input, .ccp-page-body .ccp-button-single a, .ccp-page-body .button-list-vertical-portletWindowBackground ul li a, .ccp-page-body input[type="submit"], .ccp-page-body input[type="button"] {
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
   font-size: 112.5%;
   padding: 0.5em 1.5em;
   display: inline-block;
@@ -1170,14 +1174,8 @@ p + .drop-cap {
   border-radius: 5px;
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF115D6B', endColorstr='#FF031013');
-  background: -moz-linear-gradient(#115d6b, #0e4a55);
-  background: -o-linear-gradient(#115d6b, #0e4a55);
-  background: -webkit-linear-gradient(#115d6b, #0e4a55);
-  background: linear-gradient(#115d6b, #0e4a55);
-  -moz-box-shadow: #1b96ad 0 1px 0 inset;
-  -webkit-box-shadow: #1b96ad 0 1px 0 inset;
-  box-shadow: #1b96ad 0 1px 0 inset;
-  border: 1px solid #0a373f;
+  background-color: #115d6b;
+  border: 0;
   color: white;
   text-shadow: black 0 1px 0;
   font-size: 16px;
@@ -1192,19 +1190,13 @@ p + .drop-cap {
 .ccp-page-body #ccp-signup .textbox .buttons input:hover, .ccp-page-body .ccp-button-single a:hover, .ccp-page-body .button-list-vertical-portletWindowBackground ul li a:hover, .ccp-page-body input[type="submit"]:hover, .ccp-page-body input[type="button"]:hover {
   text-decoration: none; }
 .ccp-page-body #ccp-signup .textbox .buttons input:hover, .ccp-page-body .ccp-button-single a:hover, .ccp-page-body .button-list-vertical-portletWindowBackground ul li a:hover, .ccp-page-body input[type="submit"]:hover, .ccp-page-body input[type="button"]:hover {
-  background-color: #0a373f;
-  background: -moz-linear-gradient(#0e4a55, #0a373f);
-  background: -o-linear-gradient(#0e4a55, #0a373f);
-  background: -webkit-linear-gradient(#0e4a55, #0a373f);
-  background: linear-gradient(#0e4a55, #0a373f); }
+  background-color: #0e4a55; }
 .ccp-page-body #ccp-signup .textbox .buttons input:active, .ccp-page-body .ccp-button-single a:active, .ccp-page-body .button-list-vertical-portletWindowBackground ul li a:active, .ccp-page-body input[type="submit"]:active, .ccp-page-body input[type="button"]:active {
-  -moz-box-shadow: #082b32 0 1px 2px inset;
-  -webkit-box-shadow: #082b32 0 1px 2px inset;
-  box-shadow: #082b32 0 1px 2px inset; }
+  background-color: #0b3e48; }
 .ccp-page-body #ccp-signup .textbox .buttons input.disabled, .ccp-page-body .ccp-button-single a.disabled, .ccp-page-body .button-list-vertical-portletWindowBackground ul li a.disabled, .ccp-page-body input.disabled[type="submit"], .ccp-page-body input.disabled[type="button"], .ccp-page-body #ccp-signup .textbox .buttons input[disabled], .ccp-page-body .ccp-button-single a[disabled], .ccp-page-body .button-list-vertical-portletWindowBackground ul li a[disabled], .ccp-page-body input[disabled][type="submit"], .ccp-page-body input[disabled][type="button"] {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
-  background: #0e4a55;
+  background: false;
   cursor: default;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -1258,7 +1250,9 @@ html {
 	background-color: white
 } */
 .portletWindowBackground {
-  border: 0; }
+  border: 0;
+  background-image: none;
+  background-color: #eeeeee; }
 
 input[type="text"] {
   -moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -1439,8 +1433,7 @@ input[type="text"] {
   position: absolute;
   bottom: 0;
   padding: 0;
-  line-height: 0;
-  background-color: white; }
+  line-height: 0; }
 .ccp-header .ccp-navigation ul {
   _width: 1200px;
   max-width: 1200px;
@@ -1450,7 +1443,7 @@ input[type="text"] {
   padding: 1.2em 0; }
 .ccp-header .ccp-navigation ul li[id^="ccp-tabitem-"] a[id^="ccp-tab-"] {
   font-size: 1.4em;
-  color: #202226; }
+  color: white; }
 .ccp-header .ccp-navigation ul li[id^="ccp-tabitem-"] a[id^="ccp-tab-"].active em {
   font-family: "Lato-Regular", "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 800; }
@@ -1483,13 +1476,6 @@ input[type="text"] {
 .oneportletColumn {
   display: block; }
 
-/* .portletTable {
-  font-size: 72%;
-
-  .articleBody p {
-    font-size: 16px;
-  }
-} */
 .float--left {
   float: left;
   padding-right: 2em; }
@@ -1528,7 +1514,9 @@ img {
   height: auto; }
 
 #ccp-body-home .portletTable1 {
-  margin-bottom: 3em; }
+  margin: -45px 0 3em -35px; }
+#ccp-body-home .portletTable1 .widget-home-autoscroller-portletWindowBackground .portletWrapper {
+  width: 1200px !important; }
 
 /* Let's add some specificity to this bitch */
 body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide h2 {
@@ -1545,7 +1533,7 @@ body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide p:last-child, body[id^=
 body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a {
   background-image: none; }
 body[id^="ccp-body"] div[id^="portletWindow"] .yui-carousel {
-  padding: 2em 70px 0; }
+  padding: 2em 10	0px 0; }
 body[id^="ccp-body"] div[id^="portletWindow"] .yui-carousel-content {
   height: auto !important;
   margin-bottom: 0; }
@@ -1615,8 +1603,7 @@ body[id^="ccp-body"] div[id^="portletWindow"] .yui-carousel-first-button {
   word-spacing: initial;
 } */
 body {
-  font-family: "Lato-Light", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  line-height: 1.2; }
+  font-family: "Lato-Light", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 h1, h2 {
   /* letter-spacing: -1px;
@@ -1651,7 +1638,7 @@ strong {
 .vcard h2 span {
   font-size: 0.4em !important; }
 
-.text--center, .ar__wrapper .header--main, .ar__wrapper--white .header--main, .ar__wrapper .link--toTop, .ar__wrapper--white .link--toTop {
+.text--center, .ar__wrapper .header--main, .ar__wrapper--white .header--main, .link--toTop {
   text-align: center; }
 
 #ccp-body-annual-report .ccp-body {
@@ -1789,6 +1776,9 @@ strong {
   content: '”';
   bottom: 0;
   right: 7px; }
+.ar__wrapper blockquote a, .ar__wrapper--white blockquote a {
+  color: white !important;
+  text-decoration: underline; }
 .ar__wrapper p + ul, .ar__wrapper--white p + ul, .ar__wrapper p + ol, .ar__wrapper--white p + ol {
   margin-top: -2em; }
 .ar__wrapper cite, .ar__wrapper--white cite {
@@ -1807,9 +1797,13 @@ strong {
   color: #115d6b; }
 .ar__wrapper pre, .ar__wrapper--white pre {
   font-family: "Lato-Light", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important; }
-.ar__wrapper .link--toTop, .ar__wrapper--white .link--toTop {
-  margin-bottom: 2em; }
-.ar__wrapper .link--toTop:after, .ar__wrapper--white .link--toTop:after {
+
+.link--toTop {
+  margin-bottom: 2em;
+  padding-top: 2em;
+  color: #555 !important;
+  font-size: 16px; }
+.link--toTop:after {
   content: "\2003 \2003 \2191"; }
 
 .test {

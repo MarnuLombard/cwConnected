@@ -39,10 +39,12 @@
       @include border-radius(5px);
       @include box-shadow(0 0 0 2px $color-primary_Xdark inset);
 
-      &:before {
-
+      a {
+        color: white !important;
+        text-decoration: underline;
       }
-    }
+    }// blockquote
+
     p {
      &+ ul,
      &+ ol {
@@ -80,21 +82,20 @@
       font-family: $font-body !important;
     }
 
-     .link--toTop {
-      @extend .grid__item;
-      @extend .one-whole;
-      @extend .text--center;
-      margin-bottom: 2em;
-
-      &:after {
-        content: "\2003 \2003 \2191";
-      }
-    }// link--toTop
-
   }// wrapper
 
-
-
-
-
 }// ar
+
+.link--toTop {
+    @extend .grid__item;
+    @extend .one-whole;
+    @extend .text--center;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    color: #555 !important;
+    font-size: 16px;
+
+    &:after {
+      content: "\2003 \2003 \2191";
+    }
+  }// link--toTop

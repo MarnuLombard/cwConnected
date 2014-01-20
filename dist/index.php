@@ -14,56 +14,56 @@
   ===================================================
 -->
 <section class="ar__wrapper grid">
-  <a name="top"></a>
+  <a name="section--top"></a>
 
   <nav class="ar__nav grid__item two-fifths">
     <span class="nav-link__wrapper">
-      <a href="#corruption_fighters" class="nav-link">Corruption Fighters Speak Up</a>
-        <a href="#what_is_corruption_watch" class="nav-link--sub">What is Corruption Watch?</a>
-        <a href="#your_voice_counts" class="nav-link--sub">Your Voice Counts</a>
-        <a href="#what_is_corruption" class="nav-link--sub">What is Corruption?</a>
-        <a href="#corruption_talk" class="nav-link--sub">Corruption Talk</a>
+      <a href="#section--corruption_fighters" class="nav-link">Corruption Fighters Speak Up</a>
+        <a href="#section--what_is_corruption_watch" class="nav-link--sub">What is Corruption Watch?</a>
+        <a href="#section--your_voice_counts" class="nav-link--sub">Your Voice Counts</a>
+        <a href="#section--what_is_corruption" class="nav-link--sub">What is Corruption?</a>
+        <a href="#section--corruption_talk" class="nav-link--sub">Corruption Talk</a>
     </span>
     <span class="nav-link__wrapper">
-      <a href="#on_our_watch" class="nav-link">On Our Watch</a>
-        <a href="#corruption_reported" class="nav-link--sub">Corruption Reported</a>
-        <a href="#provincial_corruption_concerns" class="nav-link--sub">Provincial Corruption Concerns</a>
-        <a href="#corruption_in_government" class="nav-link--sub">Corruption in Government</a>
-        <a href="#corruption_fighting_channels" class="nav-link--sub">Corruption Fighting Channels</a>
-        <a href="#corruption_investigated" class="nav-link--sub">Corruption Investigated</a>
+      <a href="#section--on_our_watch" class="nav-link">On Our Watch</a>
+        <a href="#section--corruption_reported" class="nav-link--sub">Corruption Reported</a>
+        <a href="#section--provincial_corruption_concerns" class="nav-link--sub">Provincial Corruption Concerns</a>
+        <a href="#section--corruption_in_government" class="nav-link--sub">Corruption in Government</a>
+        <a href="#section--corruption_fighting_channels" class="nav-link--sub">Corruption Fighting Channels</a>
+        <a href="#section--corruption_investigated" class="nav-link--sub">Corruption Investigated</a>
     </span>
     <span class="nav-link__wrapper">
-      <a href="#schools" class="nav-link">Schools</a>
-        <a href="#sounding_the_siren" class="nav-link--sub">Sounding The Siren On Corruption In Schools</a>
-      <a href="#falling_on_deaf_ears" class="nav-link--sub">Falling On Deaf Ears?</a>
-      <a href="#schools_for_sale" class="nav-link--sub">Are Our Schools For Sale?</a>
-      <a href="#public_schools" class="nav-link--sub">Public Schools’ Corruption Landscape</a>
-      <a href="#school_corruption" class="nav-link--sub">School Corruption</a>
-      <a href="#we_dont_have_a_price" class="nav-link--sub">We Don’t Have A Price!</a>
-      <a href="#corruption_reporters" class="nav-link--sub">Teachers And Parents Become Corruption Reporters</a>
+      <a href="#section--schools" class="nav-link">Schools</a>
+        <a href="#section--sounding_the_siren" class="nav-link--sub">Sounding The Siren On Corruption In Schools</a>
+      <a href="#section--falling_on_deaf_ears" class="nav-link--sub">Falling On Deaf Ears?</a>
+      <a href="#section--schools_for_sale" class="nav-link--sub">Are Our Schools For Sale?</a>
+      <a href="#section--public_schools" class="nav-link--sub">Public Schools’ Corruption Landscape</a>
+      <a href="#section--school_corruption" class="nav-link--sub">School Corruption</a>
+      <a href="#section--we_dont_have_a_price" class="nav-link--sub">We Don’t Have A Price!</a>
+      <a href="#section--corruption_reporters" class="nav-link--sub">Teachers And Parents Become Corruption Reporters</a>
     </span>
     <span class="nav-link__wrapper">
-      <a href="#government_ngos" class="nav-link">Government and NGOs</a>
-        <a href="#mvula_trust_scandal" class="nav-link--sub">Exposed! Mvula Trust Scandal</a>
-        <a href="#construction_cartel" class="nav-link--sub">Furthering Legal Action Against The Construction Cartel</a>
+      <a href="#section--government_ngos" class="nav-link">Government and NGOs</a>
+        <a href="#section--mvula_trust_scandal" class="nav-link--sub">Exposed! Mvula Trust Scandal</a>
+        <a href="#section--construction_cartel" class="nav-link--sub">Furthering Legal Action Against The Construction Cartel</a>
     </span>
     <span class="nav-link__wrapper">
-      <a href="#leading_perspective" class="nav-link">Leading Perspective</a>
-        <a href="#corruption_fighter" class="nav-link--sub">Profile of a Corruption Fighter</a>
+      <a href="#section--leading_perspective" class="nav-link">Leading Perspective</a>
+        <a href="#section--corruption_fighter" class="nav-link--sub">Profile of a Corruption Fighter</a>
     </span>
     <span class="nav-link__wrapper">
-      <a href="#leadership_profile" class="nav-link">Leadership Profile</a>
+      <a href="#section--leadership_profile" class="nav-link">Leadership Profile</a>
     </span>
     <span class="nav-link__wrapper">
-      <a href="#funders" class="nav-link">Funders and Supporters</a>
+      <a href="#section--funders" class="nav-link">Funders and Supporters</a>
     </span>
     <span class="nav-link__wrapper">
-      <a href="#contact" class="nav-link">Contact Corruption Watch</a>
+      <a href="#section--contact" class="nav-link">Contact Corruption Watch</a>
     </span>
   </nav>
 
   <div class="grid__item three-fifths">
-    <a name="corruption_fighters"></a>
+    <a name="section--corruption_fighters"></a>
 
     <h1 class="header--main">
         Corruption fighters <br />
@@ -77,7 +77,7 @@
       </h3>
       The direct economic cost of corruption is huge and the impact of this behaviour is primarily felt by the poor. At the same time, corruption erodes trust in public and private sector institutions and leadership.
       <footer><cite>
-         David Lewis
+        <a href="#bio--david">David Lewis</a>
       </cite></footer>
     </blockquote>
   </div>
@@ -114,7 +114,7 @@
     </h4>
 
     <p>
-      People across the country are speaking out against corruption in their communities. Every one of these corruption fighters is making a difference and they do this by speaking up when they are confronted with dishonest dealings, public mismanagement of funds and general abuse of power. As a collective, if we are going to rip off the price tag on South Africa, we all need to become corruption fighters.
+      People across the country are speaking out against corruption in their communities. Every one of these <a href="#section--corruption-fighter">corruption fighters is making a difference and they do this by speaking up when they are confronted with dishonest dealings, public mismanagement of funds and general abuse of power. As a collective, if we are going to rip off the price tag on South Africa, we all need to become corruption fighters.
     </p>
   </div>
   <div class="grid__item one-third">
@@ -144,7 +144,7 @@
 </section>
 
 <section class="ar__wrapper grid">
-  <a name="what_is_corruption_watch"></a>
+  <a name="section--what_is_corruption_watch"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole">
@@ -200,7 +200,7 @@
 </section>
 
 <section class="ar__wrapper grid">
-  <a name="your_voice_counts"></a>
+  <a name="section--your_voice_counts"></a>
   <a href="#top" class="link--toTop">Back to top</a>
   <h1 class="grid__item one-whole text--center">
     Your voice counts
@@ -220,9 +220,7 @@
       <li>Send an SMS with the word <strong>BRIBE to 45142</strong> (R1 per SMS)</li>
       <li>Email us at <a href="mailto:info@corruptionwatch.org.za">info@corruptionwatch.org.za</a></li>
       <li>Send us a letter, posting it to PO Box 113, Parklands, 2121</li>
-
    </ul>
-
   </div>
 </section>
 
@@ -230,7 +228,7 @@
   <blockquote class="grid__item one-half">
     One of the greatest achievements of our time in South Africa has been the establishment of a Constitutional Democracy. Deepening it requires accountability, transparency, ethical leadership, an end to corruption, a passionate commitment to the promotion of the Common Good as well as a vigilant and robust civil society that is the conscience of the nation.
     <footer><cite>
-      Archbishop Njongo Ndungane
+      <a href="#bio--archbishop">Archbishop Njongo Ndungane</a>
     </cite></footer>
   </blockquote>
 
@@ -240,7 +238,7 @@
 </section>
 
 <section class="ar__wrapper grid">
-  <a name="what_is_corruption"></a>
+  <a name="section--what_is_corruption"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole text--center">
@@ -252,24 +250,21 @@
   </h4>
 
 </section>
-<section class="ar__wrapper grid ar__wrapper--blockquote">
 
+<section class="ar__wrapper grid ar__wrapper--blockquote">
   <blockquote class="grid__item one-half">
     Corruption in South Africa is a fetter on economic growth and unless dealt with effectively, could have devastating long-term consequences on government's ability to deliver basic services and grow confidence in the country’s institutions.
     <footer><cite>
-      David Lewis
+      <a href="#bio--david">David Lewis</a>
     </cite></footer>
   </blockquote>
 
   <figure class="grid__item one-half">
     <img src="img/david.jpg" alt="David Lewis" />
   </figure>
-
 </section>
 
-
-
-
+<section class="ar__wrapper grid">
   <div class="grid__item one-whole">
     <h4>
       Common forms of corruption
@@ -282,9 +277,10 @@
     </ul>
 </section>
 
+<a name="section--corruption_talk"></a>
+<a href="#top" class="link--toTop">Back to top</a>
+
 <section class="ar__wrapper--white grid">
-  <a name="corruption_talk"></a>
-  <a href="#top" class="link--toTop">Back to top</a>
   <h1 class="grid__item one-whole text--center">
     Corruption talk
   </h1>
@@ -321,7 +317,7 @@
 <!--       ====================       -->
 
 <section class="ar__wrapper grid">
-  <a name="on_our_watch"></a>
+  <a name="section--on_our_watch"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole header--main">
@@ -334,7 +330,7 @@
     <h1 class="highlight">
       Corruption exposed
     </h1>
-    <h2 class="">Ripping off South Africa’s price tag!</h2>
+    <h2>Ripping off South Africa’s price tag!</h2>
     <h3>
       Corruption confirmed in <span class="highlight">58%</span> of reports received
     </h3>
@@ -346,7 +342,7 @@
 </section>
 
 <section class="ar__wrapper grid">
-  <a name="corruption_reported"></a>
+  <a name="section--corruption_reported"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <div class="grid__item six-tenths">
@@ -378,7 +374,7 @@
 </section>
 
 <section class="ar__wrapper grid">
-  <a name="provincial_corruption_concerns"></a>
+  <a name="section--provincial_corruption_concerns"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
 
@@ -387,7 +383,7 @@
   </h1>
 
   <div class="grid__item three-fifths">
-    <img src="img/map.svg" alt="" class="" /> <br />
+    <img src="img/map.svg" alt="" /> <br />
     <em>* Data illustrates cases where reporters revealed their location.</em>
   </div>
 
@@ -397,18 +393,15 @@
 </section>
 
 <section class="ar__wrapper grid">
-  <a name="corruption_in_government"></a>
+  <a name="section--corruption_in_government"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <div class="grid__item one-whole">
-    <h1 class="">
+    <h1>
       Corruption in Government
     </h1>
 
-    <!-- <h2>Institutional context</h2> -->
-
     <div class="text--center">
-
       <img src="img/government_graph.svg" alt="" class="center" /> <br />
 
       <p><em>*"Other" includes corruption within municipal owned entities, NGOs and charities, unions, or unknown.</em></p>
@@ -422,7 +415,7 @@
 </section>
 
 <section class="ar__wrapper grid">
-  <a name="corruption_fighting_channels"></a>
+  <a name="section--corruption_fighting_channels"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <div class="grid__item one-whole">
@@ -458,7 +451,7 @@
 </section>
 
 <section class="ar__wrapper grid">
-  <a name="corruption_investigated"></a>
+  <a name="section--corruption_investigated"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole">
@@ -495,7 +488,7 @@
 
 
 <section class="ar__wrapper grid">
-  <a name="schools"></a>
+  <a name="section--schools"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole header--main">
@@ -504,7 +497,7 @@
 </section>
 
 <section class="ar__wrapper grid">
-  <a name="sounding_the_siren"></a>
+  <a name="section--sounding_the_siren"></a>
 
   <div class="grid__item one-whole">
     <h1 class="highlight">
@@ -565,9 +558,10 @@
   </div>
 </section>
 
+<a name="section--falling_on_deaf_ears"></a>
+<a href="#top" class="link--toTop">Back to top</a>
+
 <section class="ar__wrapper--white grid">
-  <a name="falling_on_deaf_ears"></a>
-  <a href="#top" class="link--toTop">Back to top</a>
 
   <div class="grid__item three-fifths">
     <h1 class="highlight">Falling on deaf ears?</h1>
@@ -585,11 +579,11 @@
 </section>
 
 <section class="ar__wrapper grid">
-  <a name="schools_for_sale"></a>
+  <a name="section--schools_for_sale"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <div class="grid__item one-whole text--center">
-    <h1 class="">
+    <h1>
       Are our schools for sale?
     </h1>
 
@@ -651,7 +645,7 @@
 </section>
 
 <section class="ar__wrapper grid">
-  <a name="public_schools"></a>
+  <a name="section--public_schools"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole">
@@ -694,9 +688,10 @@
   </div>
 </section>
 
+<a name="section--school_corruption"></a>
+<a href="#top" class="link--toTop">Back to top</a>
+
 <section class="ar__wrapper--white grid">
-  <a name="school_corruption"></a>
-  <a href="#top" class="link--toTop">Back to top</a>
 
   <div class="grid__item two-thirds">
     <h1>
@@ -720,7 +715,7 @@
 </section>
 
 <section class="ar__wrapper grid">
-  <a name="we_dont_have_a_price"></a>
+  <a name="section--we_dont_have_a_price"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole">
@@ -790,9 +785,10 @@
   </div>
 </section>
 
+<a name="section--corruption_reporters"></a>
+<a href="#top" class="link--toTop">Back to top</a>
+
 <section class="ar__wrapper--white grid">
-  <a name="corruption_reporters"></a>
-  <a href="#top" class="link--toTop">Back to top</a>
 
   <div class="grid__item one-whole text--center">
     <h1>
@@ -905,7 +901,7 @@
   <blockquote class="grid__item three-quarters">
     We have reason to be proud of our achievements over the past twenty years as a free and democratic country. Corruption in public places, if not exposed and vigorously opposed, will certainly limit economic development, deepen poverty and lead to unmanageable social instability.
     <footer><cite>
-      Mavuso Msimang
+      <a href="#bio--mavuso">Mavuso Msimang</a>
     </cite></footer>
   </blockquote>
 
@@ -922,7 +918,7 @@
 
 
 <section class="ar__wrapper grid">
-  <a name="government_ngos"></a>
+  <a name="section--government_ngos"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole header--main">
@@ -931,7 +927,7 @@
 </section>
 
 <section class="ar__wrapper grid">
-  <a name="mvula_trust_scandal"></a>
+  <a name="section--mvula_trust_scandal"></a>
 
   <div class="grid__item one-half">
     <h1 class="highlight">
@@ -993,6 +989,7 @@
 
   <hr />
 
+  <a name="subsection--mpumulanga_health"></a>
   <div class="grid__item one-half">
     <h2 class="lowlight">
       Mpumalanga’s critical health check
@@ -1085,9 +1082,10 @@
   </div>
 </section>
 
+<a name="section--construction_cartel"></a>
+<a href="#top" class="link--toTop">Back to top</a>
+
 <section class="ar__wrapper--white grid">
-  <a name="construction_cartel"></a>
-  <a href="#top" class="link--toTop">Back to top</a>
   <div class="grid__item two-thirds">
     <h1 class="highlight">
       Furthering legal action against the Construction Cartel
@@ -1150,7 +1148,7 @@
 <!--    =========================       -->
 
 <section class="ar__wrapper grid">
-  <a name="leading_perspective"></a>
+  <a name="section--leading_perspective"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole header--main">
@@ -1165,12 +1163,12 @@
     </h1>
 
     <p class="lead">
-      A South African society that is against corrupt behaviour is not impossible to achieve, says David Lewis, Executive Director of Corruption Watch. But it needs us to draw the line on where corruption begins and to rally together by speaking out against those who overstep this mark.
+      A South African society that is against corrupt behaviour is not impossible to achieve, says <a href="#bio--david">David Lewis, Executive Director of Corruption Watch</a>. But it needs us to draw the line on where corruption begins and to rally together by speaking out against those who overstep this mark.
     </p>
   </div>
   <div class="grid__item one-half">
     <p>
-      2013 has been an eventful year for Corruption Watch. Reports of corruption have continued to stream in. We have launched our schools campaign, which has attracted large numbers of reports of school related corruption.
+      2013 has been an eventful year for Corruption Watch. Reports of corruption have continued to stream in. We have launched our schools campaign, which has attracted <a href="#section--schools">large numbers of reports of school related corruption</a>.
     </p>
 
 
@@ -1184,7 +1182,7 @@
       We have identified and exposed hotspots of corruption. We have concluded several successful investigations of individual acts of corruption and have successfully used your voice to pressurise the affected government departments to take action.
     </p>
     <p>
-      We made a powerful submission on the construction cartel to the Competition Tribunal.  We also appeared in the Constitutional Court and made a major contribution to an important judgement that will make it far more difficult to corrupt tender awards.
+      <a href="#section--construction_cartel">We made a powerful submission on the construction cartel</a> to the Competition Tribunal.  We also appeared in the Constitutional Court and made a major contribution to an important judgement that will make it far more difficult to corrupt tender awards.
     </p>
     <p>
       There is evidence that some powerful individuals in the public and private sectors are beginning to hear your voice.  As mentioned some government departments have responded positively to our investigations and have shown a willingness to co-operate with us in combatting corruption.
@@ -1215,8 +1213,8 @@
     <p>
       We still have a mountain to climb and there is every indication that 2014 is going to be an even more eventful year.
       <ul>
-        <li>We are planning a campaign directed at corruption in the healthcare system.</li>
-        <li>We  have  introduced a new telephone hotline to add to our existing platforms for reporting corruption.</li>
+        <li><a href="#subsection--mpumulanga_health">We are planning a campaign directed at corruption in the healthcare system</a>.</li>
+        <li><a href="#section--your_voice_counts">We have introduced a new telephone hotline</a> to add to our existing platforms for reporting corruption.</li>
         <li>We are setting up an online and mobile phone platform that will enable us to build communities of corruption fighters.</li>
       </ul>
     </p>
@@ -1242,9 +1240,10 @@
   </div>
 </section>
 
+<a name="section--corruption_fighter"></a>
+<a href="#top" class="link--toTop">Back to top</a>
+
 <section class="ar__wrapper--white grid">
-  <a name="corruption_fighter"></a>
-  <a href="#top" class="link--toTop">Back to top</a>
 
   <div class="grid__item one-whole text--center">
     <h1>
@@ -1262,7 +1261,7 @@
 <!--    ============================    -->
 
 <section class="ar__wrapper grid">
-  <a name="leadership_profile"></a>
+  <a name="section--leadership_profile"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole header--main">
@@ -1279,6 +1278,7 @@
 
   <div class="grid__item one-half">
 
+    <a href="bio--archbishop"></a>
     <img src="img/board/Ndungane.jpg" alt="Archbishop Njongonkulu Ndungane" class="float--left one-fifth">
     <h3>Archbishop Njongonkulu Ndungane</h3>
     <h4>Former Anglican Archbishop of Cape Town</h4>
@@ -1287,7 +1287,7 @@
       Archbishop Njongonkulu Ndungane is the former Anglican archbishop of Cape Town and a recipient of the Order of the Grand Counsellor of the Baobab in silver. He retired in 2007 from religious service but is still active in society.
     </p>
     <p>
-      His current positions include president and founder of African Monitor, the executive director of the Historic Schools Restoration Project, the chairman of the Council of the University of Cape Town, and a trustee of The Sunfoil Educational Trust, recently formed by Cricket South Africa.
+      His current positions include president and founder of <a href="http://www.africanmonitor.org/" target="_blank">African Monitor</a>, the executive director of the Historic Schools Restoration Project, the chairman of the Council of the University of Cape Town, and a trustee of The Sunfoil Educational Trust, recently formed by Cricket South Africa.
     </p>
     <p>
       Ndungane’s social activism began when he was a student at the University of Cape Town (UCT) and was involved in anti-pass law demonstrations, which led to arrest and a three-year prison sentence on Robben Island – during this time he received the call to serve God, and was ordained a priest in July 1974. This period of his life is referenced in the title of his biography, From Robben Island to Bishopscourt. He studied abroad at King’s College in London, earning a bachelor of divinity, honours and master of theology in Christian ethics, and on his return to South Africa took up a post as rector of St Nicholas, Matroosfontein.
@@ -1313,7 +1313,7 @@
       Hassim earned a BA and LLB from the University of Natal, and later an LLM from the St Louis University School of Law in the United States as well as a JSD, or doctorate in law, cum laude from the University of Notre Dame Law School. She is a member of the Johannesburg Bar and was admitted as an advocate of the High Court of South Africa in 2003.
     </p>
     <p>
-    A prolific author, Hassim has published in in law journals, health journals and newspapers and has co-authored books on human rights and health law. She is a member of the National Association of Democratic Lawyers and an honorary member of the TAC.
+      A prolific author, Hassim has published in in law journals, health journals and newspapers and has co-authored books on human rights and health law. She is a member of the <a href="http://www.nadel.co.za/" targe="_blank">National Association of Democratic Lawyers</a> and an honorary member of the TAC.
     </p>
 
   <hr />
@@ -1345,7 +1345,6 @@
     <h3>David Lewis</h3>
     <h4>Former Competition Tribunal chairperson</h4>
 
-
     <p>
       David Lewis chaired the Competition Tribunal for a decade from its founding in 1999. He received his training in economics from the universities of the Witwatersrand and Cape Town, and between 1975 and 1990 he worked in the trade union movement, serving as general secretary of the General Workers Union and national organiser of the Transport and General Workers Union.
     </p>
@@ -1359,7 +1358,7 @@
       He was a founder member of the International Competition Network, a member of its Steering Group from 2001 until 2009 and chairman of the Steering Group in 2008-9. Lewis was deputy chairman of the Industrial Development Corporation’s board from 2002 to 2008 and chairman of its human resources committee. In 2009 Lewis was appointed an extraordinary professor at the Gordon Institute of Business Science. A year later, UCT awarded him an honorary doctorate in economic sciences.
     </p>
     <p>
-      Lewis is also an author and his book Thieves at the Dinner Table: Enforcing the Competition Act – a Personal Account was published in 2012.
+      Lewis is also an author and his book <a href="http://www.amazon.com/Thieves-Dinner-Table-Enforcing-Competition/dp/1431403709" target="_blank">Thieves at the Dinner Table: Enforcing the Competition Act</a> – a Personal Account was published in 2012.
     </p>
 
   <hr />
@@ -1368,15 +1367,14 @@
     <h3>Emma Mashinini</h3>
     <h4>Former general secretary of the Commercial, Catering and Allied Workers’ Union of South Africa</h4>
 
-
     <p>
       Emma Mashinini became the first general secretary of the Commercial, Catering and Allied Workers’ Union of South Africa (CCAWUSA) in 1975. She was instrumental in growing the union substantially in the following years. Mashinini was arrested in 1981 under Section 6 of the Terrorism Act and held in solitary confinement at Pretoria Central Prison for six months.
     </p>
     <p>
-      In 1985, through her role in CCAWUSA, she was involved in the formation of the Congress of South African Trade Unions (Cosatu). In 1986 she was appointed head of the Department of Justice and Reconciliation later working as deputy chairperson of the National Manpower Commission and then as the commissioner for land restitution. In 2007 Mashinini became a Companion of the Order of Luthuli in Bronze for her "outstanding contribution in building the trade union movement, her resilience under apartheid harassment and detention, in the cause for a non-sexist, non-racial, just and democratic South Africa".
+      In 1985, through her role in CCAWUSA, she was involved in the formation of the <a href="http://www.cosatu.org.za/" target="_blank">Congress of South African Trade Unions (Cosatu)</a>. In 1986 she was appointed head of the Department of Justice and Reconciliation later working as deputy chairperson of the National Manpower Commission and then as the <a href="http://www.dla.gov.za/services/commission-on-restitution-of-land-rights" target="_blank">commissioner for land restitution</a>. In 2007 Mashinini <a href="http://www.thepresidency.gov.za/pebble.asp?relid=7935" target="_blank">became a Companion of the Order of Luthuli in Bronze</a> for her "outstanding contribution in building the trade union movement, her resilience under apartheid harassment and detention, in the cause for a non-sexist, non-racial, just and democratic South Africa".
     </p>
     <p>
-      Her autobiography is titled Strikes Have Followed Me All My Life.
+      Her autobiography is titled <a href="http://www.kalahari.com/Books/Strikes-Have-Followed-Me-All-My-Life_p_44917299" target="_blank">Strikes Have Followed Me All My Life</a>.
     </p>
 
   <hr />
@@ -1384,7 +1382,6 @@
     <img src="img/board/ORegan.jpg" alt="Kate O’Regan" class="float--left one-fifth">
     <h3>Kate O’Regan</h3>
     <h4>Mediator and former Constitutional Court judge</h4>
-
 
     <p>
       Kate O’Regan is a former Constitutional Court judge, appointed in 1994 during the transitional period to democracy. She was the youngest judge, and is one of only two women to be appointed. Her 15-year term ended in 2009.
@@ -1404,7 +1401,6 @@
     <h3>Mary Metcalfe</h3>
     <h4>Educationist and distinguished academic</h4>
 
-
     <p>
       Mary Metcalfe is currently working on large-scale system improvement in education in KwaZulu-Natal and the Northern Cape.
     </p>
@@ -1412,16 +1408,15 @@
       Best known as an educationist and a distinguished academic, she’s also a visiting fellow on the Soweto campus of the University of Johannesburg, a visiting adjunct professor at the University of the Witwatersrand (Wits), and is the Chairperson of the Open Society Foundations' Education Advisory Board (global).
     </p>
     <p>
-      Metcalfe was elected as a member of the African National Congress in the Gauteng Provincial Legislature in 1994 and was a member of the executive council for education in the province from 1994 to 1999. This was followed by an appointment as MEC for agriculture, conservation, environment and land. In 2004 she returned to education, joining Wits as head of the School of Education. In 2009 she was appointed director-general of the new national Department of Higher Education and Training and worked in education at the Development Bank of Southern Africa from 2011 to 2013.
+      Metcalfe was elected as a member of the African National Congress in the Gauteng Provincial Legislature in 1994 and was a member of the executive council for education in the province from 1994 to 1999. This was followed by an appointment as MEC for agriculture, conservation, environment and land. In 2004 she returned to education, joining Wits as head of the School of Education. In 2009 she was appointed director-general of the new national <a href="http://www.dhet.gov.za/" target="_blank">Department of Higher Education and Training</a> and worked in education at the Development Bank of Southern Africa from 2011 to 2013.
     </p>
 
   <hr />
 
+    <a name="bio--mavuso"></a>
     <img src="img/board/Msimang.jpg" alt="Mavuso Msimang" class="float--left one-fifth">
     <h3>Mavuso Msimang</h3>
     <h4>Former Home Affairs director general</h4>
-
-
     <p>
       Mavuso Msimang is the former director-general of the national Home Affairs department, and while in that position he was instrumental in putting in place systems that greatly improved turnaround times in the issuance of face-value items such as identity documents, birth certificates and passports.
     </p>
@@ -1432,7 +1427,7 @@
       As CEO of South African National Parks, he oversaw the implementation of the organisation’s financial, environmental and social responsibility programmes, involving communities around the parks by offering them employment and business opportunities. He also played a crucial role in restoring the integrity of operations at the State Information Technology Agency. Before his return to South Africa in 1994, he worked for a number of NGOs in international development – this included a six-year association with the World University Service of Canada and CARE International as country representatives in Ethiopia and Kenya respectively, and stints with Unicef, the World Food Programme and the UN Development Programme.
     </p>
     <p>
-      His non-executive board directorships include the African Parks Network and the Peace Parks Foundation, and he is chairperson of the iSimangaliso Wetland Park, a world heritage site.
+      His non-executive board directorships include the African Parks Network and the <a href="http://www.peaceparks.co.za/" target="_blank">Peace Parks Foundation</a>, and he is chairperson of the iSimangaliso Wetland Park, a world heritage site.
     </p>
 
   <hr />
@@ -1441,21 +1436,20 @@
     <h3>Vusi Pikoli</h3>
     <h4>Former head of the National Prosecuting Authority</h4>
 
-
     <p>
       Vusi Pikoli is an advocate by profession. Between 1991 and 1994 he worked in the private legal profession, but became special advisor to the minister of justice, Dullah Omar in 1994. He served in that capacity until 1997, when he became deputy director-general of human resources in the Department of Justice and Constitutional Development.
     </p>
     <p>
-      From 1999 to 2005 he was director-general in the same department, and was then appointed to head up the National Prosecuting Authority, a position he held until 2008.
+      From 1999 to 2005 he was director-general in the same department, and was then appointed to head up the <a href="http://www.npa.gov.za/" target="_blank">National Prosecuting Authority</a>, a position he held until 2008.
     </p>
     <p>
-      Pikoli’s recently published memoir, My Second Initiation, details this journey from his first initiation as a young man in the Eastern Cape, to his second as a top-ranking government official.
+      Pikoli’s recently published memoir, <em>My Second Initiation</em>, details this journey from his first initiation as a young man in the Eastern Cape, to his second as a top-ranking government official.
     </p>
     <p>
       Pikoli is a former trustee of the Constitutional Court Trust, and a founding member of the International Association of Anti-Corruption Authorities. Until February 2012 he was a director of the forensic investigation division at SizweNtsalubaGobodo. He also headed up the forensics department at Gobodo Inc. He is currently an independent director on the board of Cricket South Africa, where he chairs the social and ethics committee. He also heads his own forensic company, Vee Pee Forensic Consultants.
     </p>
     <p>
-      In August 2012 he and Kate O’Regan were appointed as co-commissioners of a commission of inquiry into allegation of police inefficiency in Khayelitsha in the Western Cape. The commission is due to start public hearings towards the end of January 2014.
+      In August 2012 <a href="http://www.politicsweb.co.za/politicsweb/view/politicsweb/en/page71654?oid=321110&sn=Detail&pid=71654" target="_blank">he and Kate O’Regan were appointed as co-commissioners of a commission of inquiry</a> into allegation of police inefficiency in Khayelitsha in the Western Cape. The commission is due to start public hearings towards the end of January 2014.
     </p>
 
   <hr />
@@ -1505,7 +1499,7 @@
 <!--    ==========================    -->
 
 <section class="ar__wrapper grid">
-  <a name="funders"></a>
+  <a name="section--funders"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole header--main">
@@ -1601,7 +1595,7 @@
 <!--    ============================    -->
 
 <section class="ar__wrapper grid">
-  <a name="contact"></a>
+  <a name="section--contact"></a>
   <a href="#top" class="link--toTop">Back to top</a>
 
   <h1 class="grid__item one-whole header--main">

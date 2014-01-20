@@ -194,7 +194,6 @@
     bottom: 0;
 		padding: 0;
 		line-height: 0;
-		background-color: white;
 
 
 		ul {
@@ -209,7 +208,7 @@
 
 				a[id^="ccp-tab-"] {
 					font-size: 1.4em;
-					color: $color-text;
+					color: white;
 
 					&.active em {
 						font-family: $font-body_alt;

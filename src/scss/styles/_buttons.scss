@@ -51,7 +51,9 @@
 =            Define the styles            =
 =========================================*/
 %button {
-	@include sassy-button('simple', 5px, ($font-size * 1%), $color-secondary, $color-secondary_dark, white, raised, true, true);
+	//so as to reset default styles
+	@include background(linear-gradient(color-stops(transparent, transparent)));
+	@include sassy-button('flat', 5px, ($font-size * 1%), $color-secondary, $color-secondary_dark, white, raised, true, true);
 	@include sassy-button-structure($sb-border-radius, $sb-font-size, 0.8em);
 	@include sassy-button-default-structure();
 
