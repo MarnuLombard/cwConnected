@@ -9,7 +9,7 @@
  * author of CSS : 				Marnu Lombard / indigo.co.za
  * libraries : 						Sass, Compass, CSSWizardry Grids, Normalize, Sassy Buttons, Typeplate
  */
-.ccp-header .ccp-navigation ul:after, .special_button, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a, .ccp-header .ccp-header-menu .ccp-site-menu, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #ccp-search-near, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #srch_loc_fld, .ccp-header .ccp-navigation ul li[id^="ccp-tabitem-"] {
+.ccp-header .ccp-navigation ul:after, .special_button, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #ccp-search-near, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #srch_loc_fld, .ccp-header .ccp-navigation ul li[id^="ccp-tabitem-"] {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -25,7 +25,7 @@
 
 /* ==============[ Bulletproof fontface mixin ]============== */
 /* ==============[ Basic Gradient mixin ]============== */
-.ccp-header .ccp-navigation ul:after, .special_button, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a, .ccp-header .ccp-header-menu .ccp-site-menu, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #ccp-search-near, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #srch_loc_fld, .ccp-header .ccp-navigation ul li[id^="ccp-tabitem-"] {
+.ccp-header .ccp-navigation ul:after, .special_button, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #ccp-search-near, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #srch_loc_fld, .ccp-header .ccp-navigation ul li[id^="ccp-tabitem-"] {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -1252,7 +1252,7 @@ html {
 .portletWindowBackground {
   border: 0;
   background-image: none;
-  background-color: #eeeeee; }
+  background-color: #aaa; }
 
 input[type="text"] {
   -moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -1382,7 +1382,9 @@ input[type="text"] {
 .ccp-header .ccp-header-menu .ccp-site-menu li, .ccp-header .ccp-header-menu .ccp-site-menu li a, .ccp-header .ccp-header-menu .ccp-user-menu li, .ccp-header .ccp-header-menu .ccp-user-menu li a {
   color: #a6a6a6; }
 .ccp-header .ccp-header-menu .ccp-site-menu {
-  float: right; }
+  /* float: right;
+  @extend %inline-block__hack; */
+  display: none; }
 .ccp-header .ccp-header-menu .ccp-user-menu {
   display: block;
   float: left;
@@ -1461,7 +1463,7 @@ input[type="text"] {
   max-width: 1120px;
   min-width: 1024px;
   padding: 40px 46px 0 34px;
-  background-color: white; }
+  background-color: #f2f2f2; }
 .ccp-page-body .ccp-container .ccp-body .portletbody {
   background-color: white; }
 
@@ -1533,7 +1535,7 @@ body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide p:last-child, body[id^=
 body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a {
   background-image: none; }
 body[id^="ccp-body"] div[id^="portletWindow"] .yui-carousel {
-  padding: 2em 10	0px 0; }
+  padding: 2em 100px	0px; }
 body[id^="ccp-body"] div[id^="portletWindow"] .yui-carousel-content {
   height: auto !important;
   margin-bottom: 0; }
@@ -1595,19 +1597,14 @@ body[id^="ccp-body"] div[id^="portletWindow"] .yui-carousel-first-button {
   @font-face {
     font-family: "icons";
     src: url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype"), url("../fonts/icons.svg#icons") format("svg"); } }
-/* %reset-bebas {
-  font-family: $font-body;
-  text-transform: initial;
-  font-weight: 600;
-  letter-spacing: 0;
-  word-spacing: initial;
-} */
 body {
   font-family: "Lato-Light", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+body a {
+  color: #296dd1; }
+body a:hover {
+  color: #7bb7cd; }
 
 h1, h2 {
-  /* letter-spacing: -1px;
-  word-spacing: 15px; */
   text-transform: uppercase; }
 
 h1, h2, h3 {

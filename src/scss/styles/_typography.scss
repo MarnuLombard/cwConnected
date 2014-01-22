@@ -4,23 +4,21 @@
 @include font-face(icons);
 
 
-/* %reset-bebas {
-  font-family: $font-body;
-  text-transform: initial;
-  font-weight: 600;
-  letter-spacing: 0;
-  word-spacing: initial;
-} */
-
 body {
   font-family: $font-body;
-  // line-height: 1.2;
+
+  //nested so as to increase specificity
+  a {
+    color: #296dd1;
+
+    &:hover {
+      color: #7bb7cd;
+    }
+  }
 }
 
 h1,
 h2 {
-  /* letter-spacing: -1px;
-  word-spacing: 15px; */
   text-transform: uppercase;
 }
 
@@ -50,7 +48,6 @@ h6 {
   ol &,
   ul & {
     font-size: 1.3em;
-    // @extend %reset-bebas;
   }
 }
 
@@ -61,7 +58,6 @@ strong {
 .portletWrapper {
   h2 {
     @extend .delta;
-    // @extend %reset-bebas;
   }
 }
 

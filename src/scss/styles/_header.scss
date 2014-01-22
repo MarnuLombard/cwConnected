@@ -103,8 +103,9 @@
 		}// site-menu, user-menu
 
 		.ccp-site-menu {
-			float: right;
-			@extend %inline-block__hack;
+			/* float: right;
+			@extend %inline-block__hack; */
+			display: none;
 		}
 
 		.ccp-user-menu {

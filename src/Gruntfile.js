@@ -34,8 +34,8 @@ module.exports = function(grunt) {
         files: [
           'Gruntfile.js',
           '../dist/*.html',
-          '../dist/*.php',
-          '../dist/includes/*.php',
+          '../dist/**/**/*.php',
+          // '../dist/includes/*.php',
           '../dist/css/*',
           '../dist/fonts/*',
           '../dist/js/*.js',
