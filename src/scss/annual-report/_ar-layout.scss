@@ -58,17 +58,20 @@
 
   @include e(nav) {
     @extend .grid__item;
-
+    width: 31%;
+    min-height: 363px;
+    margin-right: 20px;
     padding-left: 0;
     background-color: $color-secondary;
 
     @include border-radius(5px);
 
     .nav-link__wrapper {
-      padding: 1em;
+      padding: 0.8em;
       display: block;
       border-top: 1px solid $color-secondary_dark;
       border-bottom: 1px solid $color-secondary_dark;
+
     }
 
     .nav-link {
@@ -83,6 +86,8 @@
     .nav-link--sub {
       padding: 0 0 0 0.5em;
       display: block;
+      font-size: 1.1em;
+      line-height: 1.4;
     }
 
   } // nav

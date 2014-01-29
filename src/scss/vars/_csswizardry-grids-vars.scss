@@ -53,14 +53,14 @@
  // If you are building a non-responsive site but would still like to use
  // csswizardry-grids, set this to ‘false’:
  ///
-$responsive:            true!default;
+$responsive:            false;
 
 
 /////
  // Is this build mobile first? Setting to ‘true’ means that all grids will be
  // 100% width if you do not apply a more specific class to them.
  ///
-$mobile-first:          true!default;
+$mobile-first:          false;
 
 
 /////
@@ -78,7 +78,7 @@ $use-silent-classes:    false!default;
 /////
  // Would you like push and pull classes enabled?
  ///
-$push:                  false!default;
+$push:                  true;
 $pull:                  false!default;
 
 

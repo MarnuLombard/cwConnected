@@ -1,4 +1,4 @@
-<body id="ccp-body-annual-report">
+<body id="ccp-body-annual_report">
 
     <div class="ccp-page-body">
 

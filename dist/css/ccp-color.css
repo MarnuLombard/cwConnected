@@ -726,7 +726,6 @@ p + .drop-cap {
   display: inline-block;
   padding-left: 24px;
   vertical-align: top;
-  width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -807,6 +806,24 @@ p + .drop-cap {
 .five-sixths, .ten-twelfths {
   width: 83.333%; }
 
+.one-seventh {
+  width: 14.285%; }
+
+.two-sevenths {
+  width: 28.571%; }
+
+.three-sevenths {
+  width: 42.825%; }
+
+.four-sevenths {
+  width: 57.142%; }
+
+.five-sevenths {
+  width: 71.428%; }
+
+.six-sevenths {
+  width: 85.714%; }
+
 .one-eighth {
   width: 12.5%; }
 
@@ -843,294 +860,138 @@ p + .drop-cap {
 .eleven-twelfths {
   width: 91.666%; }
 
-@media only screen and (max-width: 480px) {
-  .palm--one-whole {
-    width: 100%; }
+[class*="push--"] {
+  position: relative; }
+
+    /*
+    ////
+     // Whole
+     ///
+    .push--one-whole           { left:100%; @include silent-relative(); }
+
+
+    /////
+     // Halves
+     ///
+    .push--one-half            { left:50%; @include silent-relative(); }
+
+
+    /////
+     // Thirds
+     ///
+    .push--one-third           { left:33.333%; @include silent-relative(); }
+    .push--two-thirds          { left:66.666%; @include silent-relative(); }
+
+
+    /////
+     // Quarters
+     ///
+    .push--one-quarter         { left:25%; @include silent-relative(); }
+    .push--two-quarters        { @extend .push--one-half; }
+    .push--three-quarters      { left:75%; @include silent-relative(); }
+
+
+    /////
+     // Fifths
+     ///
+    .push--one-fifth           { left:20%; @include silent-relative(); }
+    .push--two-fifths          { left:40%; @include silent-relative(); }
+    .push--three-fifths        { left:60%; @include silent-relative(); }
+    .push--four-fifths         { left:80%; @include silent-relative(); }
+
+
+    /////
+     // Sixths
+     ///
+    .push--one-sixth           { left:16.666%; @include silent-relative(); }
+    .push--two-sixths          { @extend .push--one-third; }
+    .push--three-sixths        { @extend .push--one-half; }
+    .push--four-sixths         { @extend .push--two-thirds; }
+    .push--five-sixths         { left:83.333%; @include silent-relative(); }
+
+    /////
+     // Sevenths
+     ///
+    .push--one-seventh         { left:14.285%; @include silent-relative();}
+    .push--two-sevenths        { left:28.571%; @include silent-relative();}
+    .push--three-sevenths      { left:42.825%; @include silent-relative();}
+    .push--four-sevenths       { left:57.142%; @include silent-relative();}
+    .push--five-sevenths       { left:71.428%; @include silent-relative();}
+    .push--six-sevenths        { left:85.714%; @include silent-relative();}
+
+    /////
+     // Eighths
+     ///
+    .push--one-eighth          { left:12.5%; @include silent-relative(); }
+    .push--two-eighths         { @extend .push--one-quarter; }
+    .push--three-eighths       { left:37.5%; @include silent-relative(); }
+    .push--four-eighths        { @extend .push--one-half; }
+    .push--five-eighths        { left:62.5%; @include silent-relative(); }
+    .push--six-eighths         { @extend .push--three-quarters; }
+    .push--seven-eighths       { left:87.5%; @include silent-relative(); }
+
+
+    /////
+     // Tenths
+     ///
+    .push--one-tenth           { left:10%; @include silent-relative(); }
+    .push--two-tenths          { @extend .push--one-fifth; }
+    .push--three-tenths        { left:30%; @include silent-relative(); }
+    .push--four-tenths         { @extend .push--two-fifths; }
+    .push--five-tenths         { @extend .push--one-half; }
+    .push--six-tenths          { @extend .push--three-fifths; }
+    .push--seven-tenths        { left:70%; @include silent-relative(); }
+    .push--eight-tenths        { @extend .push--four-fifths; }
+    .push--nine-tenths         { left:90%; @include silent-relative(); }
+
+
+    /////
+     // Twelfths
+     ///
+    .push--one-twelfth         { left:8.333%; @include silent-relative(); }
+    .push--two-twelfths        { @extend .push--one-sixth; }
+    .push--three-twelfths      { @extend .push--one-quarter; }
+    .push--four-twelfths       { @extend .push--one-third; }
+    .push--five-twelfths       { left:41.666%; @include silent-relative(); }
+    .push--six-twelfths        { @extend .push--one-half; }
+    .push--seven-twelfths      { left:58.333%; @include silent-relative(); }
+    .push--eight-twelfths      { @extend .push--two-thirds; }
+    .push--nine-twelfths       { @extend .push--three-quarters; }
+    .push--ten-twelfths        { @extend .push--five-sixths; }
+    .push--eleven-twelfths     { left:91.666%; @include silent-relative(); }*/
+.push--one-twelfth {
+  left: 8.333%; }
 
-  .palm--one-half, .palm--two-quarters, .palm--three-sixths, .palm--four-eighths, .palm--five-tenths, .palm--six-twelfths {
-    width: 50%; }
+.push--two-twelfths {
+  left: 16.665%; }
 
-  .palm--one-third, .palm--two-sixths, .palm--four-twelfths {
-    width: 33.333%; }
+.push--three-twelfths {
+  left: 25%; }
 
-  .palm--two-thirds, .palm--four-sixths, .palm--eight-twelfths {
-    width: 66.666%; }
+.push--four-twelfths {
+  left: 33.333%; }
 
-  .palm--one-quarter, .palm--two-eighths, .palm--three-twelfths {
-    width: 25%; }
+.push--five-twelfths {
+  left: 41.665%; }
 
-  .palm--three-quarters, .palm--six-eighths, .palm--nine-twelfths {
-    width: 75%; }
+.push--six-twelfths {
+  left: 50%; }
 
-  .palm--one-fifth, .palm--two-tenths {
-    width: 20%; }
+.push--seven-twelfths {
+  left: 58.333%; }
 
-  .palm--two-fifths, .palm--four-tenths {
-    width: 40%; }
+.push--eight-twelfths {
+  left: 66.665%; }
 
-  .palm--three-fifths, .palm--six-tenths {
-    width: 60%; }
+.push--nine-twelfths {
+  left: 75%; }
 
-  .palm--four-fifths, .palm--eight-tenths {
-    width: 80%; }
+.push--ten-twelfths {
+  left: 83.333%; }
 
-  .palm--one-sixth, .palm--two-twelfths {
-    width: 16.666%; }
+.push--eleven-twelfths {
+  left: 91.665%; }
 
-  .palm--five-sixths, .palm--ten-twelfths {
-    width: 83.333%; }
-
-  .palm--one-eighth {
-    width: 12.5%; }
-
-  .palm--three-eighths {
-    width: 37.5%; }
-
-  .palm--five-eighths {
-    width: 62.5%; }
-
-  .palm--seven-eighths {
-    width: 87.5%; }
-
-  .palm--one-tenth {
-    width: 10%; }
-
-  .palm--three-tenths {
-    width: 30%; }
-
-  .palm--seven-tenths {
-    width: 70%; }
-
-  .palm--nine-tenths {
-    width: 90%; }
-
-  .palm--one-twelfth {
-    width: 8.333%; }
-
-  .palm--five-twelfths {
-    width: 41.67%; }
-
-  .palm--seven-twelfths {
-    width: 58.333%; }
-
-  .palm--eleven-twelfths {
-    width: 91.666%; } }
-@media only screen and (min-width: 481px) and (max-width: 1023px) {
-  .lap--one-whole {
-    width: 100%; }
-
-  .lap--one-half, .lap--two-quarters, .lap--three-sixths, .lap--four-eighths, .lap--five-tenths, .lap--six-twelfths {
-    width: 50%; }
-
-  .lap--one-third, .lap--two-sixths, .lap--four-twelfths {
-    width: 33.333%; }
-
-  .lap--two-thirds, .lap--four-sixths, .lap--eight-twelfths {
-    width: 66.666%; }
-
-  .lap--one-quarter, .lap--two-eighths, .lap--three-twelfths {
-    width: 25%; }
-
-  .lap--three-quarters, .lap--six-eighths, .lap--nine-twelfths {
-    width: 75%; }
-
-  .lap--one-fifth, .lap--two-tenths {
-    width: 20%; }
-
-  .lap--two-fifths, .lap--four-tenths {
-    width: 40%; }
-
-  .lap--three-fifths, .lap--six-tenths {
-    width: 60%; }
-
-  .lap--four-fifths, .lap--eight-tenths {
-    width: 80%; }
-
-  .lap--one-sixth, .lap--two-twelfths {
-    width: 16.666%; }
-
-  .lap--five-sixths, .lap--ten-twelfths {
-    width: 83.333%; }
-
-  .lap--one-eighth {
-    width: 12.5%; }
-
-  .lap--three-eighths {
-    width: 37.5%; }
-
-  .lap--five-eighths {
-    width: 62.5%; }
-
-  .lap--seven-eighths {
-    width: 87.5%; }
-
-  .lap--one-tenth {
-    width: 10%; }
-
-  .lap--three-tenths {
-    width: 30%; }
-
-  .lap--seven-tenths {
-    width: 70%; }
-
-  .lap--nine-tenths {
-    width: 90%; }
-
-  .lap--one-twelfth {
-    width: 8.333%; }
-
-  .lap--five-twelfths {
-    width: 41.67%; }
-
-  .lap--seven-twelfths {
-    width: 58.333%; }
-
-  .lap--eleven-twelfths {
-    width: 91.666%; } }
-@media only screen and (max-width: 1023px) {
-  .portable--one-whole {
-    width: 100%; }
-
-  .portable--one-half, .portable--two-quarters, .portable--three-sixths, .portable--four-eighths, .portable--five-tenths, .portable--six-twelfths {
-    width: 50%; }
-
-  .portable--one-third, .portable--two-sixths, .portable--four-twelfths {
-    width: 33.333%; }
-
-  .portable--two-thirds, .portable--four-sixths, .portable--eight-twelfths {
-    width: 66.666%; }
-
-  .portable--one-quarter, .portable--two-eighths, .portable--three-twelfths {
-    width: 25%; }
-
-  .portable--three-quarters, .portable--six-eighths, .portable--nine-twelfths {
-    width: 75%; }
-
-  .portable--one-fifth, .portable--two-tenths {
-    width: 20%; }
-
-  .portable--two-fifths, .portable--four-tenths {
-    width: 40%; }
-
-  .portable--three-fifths, .portable--six-tenths {
-    width: 60%; }
-
-  .portable--four-fifths, .portable--eight-tenths {
-    width: 80%; }
-
-  .portable--one-sixth, .portable--two-twelfths {
-    width: 16.666%; }
-
-  .portable--five-sixths, .portable--ten-twelfths {
-    width: 83.333%; }
-
-  .portable--one-eighth {
-    width: 12.5%; }
-
-  .portable--three-eighths {
-    width: 37.5%; }
-
-  .portable--five-eighths {
-    width: 62.5%; }
-
-  .portable--seven-eighths {
-    width: 87.5%; }
-
-  .portable--one-tenth {
-    width: 10%; }
-
-  .portable--three-tenths {
-    width: 30%; }
-
-  .portable--seven-tenths {
-    width: 70%; }
-
-  .portable--nine-tenths {
-    width: 90%; }
-
-  .portable--one-twelfth {
-    width: 8.333%; }
-
-  .portable--five-twelfths {
-    width: 41.67%; }
-
-  .portable--seven-twelfths {
-    width: 58.333%; }
-
-  .portable--eleven-twelfths {
-    width: 91.666%; } }
-@media only screen and (min-width: 1024px) {
-  .desk--one-whole {
-    width: 100%; }
-
-  .desk--one-half, .desk--two-quarters, .desk--three-sixths, .desk--four-eighths, .desk--five-tenths, .desk--six-twelfths {
-    width: 50%; }
-
-  .desk--one-third, .desk--two-sixths, .desk--four-twelfths {
-    width: 33.333%; }
-
-  .desk--two-thirds, .desk--four-sixths, .desk--eight-twelfths {
-    width: 66.666%; }
-
-  .desk--one-quarter, .desk--two-eighths, .desk--three-twelfths {
-    width: 25%; }
-
-  .desk--three-quarters, .desk--six-eighths, .desk--nine-twelfths {
-    width: 75%; }
-
-  .desk--one-fifth, .desk--two-tenths {
-    width: 20%; }
-
-  .desk--two-fifths, .desk--four-tenths {
-    width: 40%; }
-
-  .desk--three-fifths, .desk--six-tenths {
-    width: 60%; }
-
-  .desk--four-fifths, .desk--eight-tenths {
-    width: 80%; }
-
-  .desk--one-sixth, .desk--two-twelfths {
-    width: 16.666%; }
-
-  .desk--five-sixths, .desk--ten-twelfths {
-    width: 83.333%; }
-
-  .desk--one-eighth {
-    width: 12.5%; }
-
-  .desk--three-eighths {
-    width: 37.5%; }
-
-  .desk--five-eighths {
-    width: 62.5%; }
-
-  .desk--seven-eighths {
-    width: 87.5%; }
-
-  .desk--one-tenth {
-    width: 10%; }
-
-  .desk--three-tenths {
-    width: 30%; }
-
-  .desk--seven-tenths {
-    width: 70%; }
-
-  .desk--nine-tenths {
-    width: 90%; }
-
-  .desk--one-twelfth {
-    width: 8.333%; }
-
-  .desk--five-twelfths {
-    width: 41.67%; }
-
-  .desk--seven-twelfths {
-    width: 58.333%; }
-
-  .desk--eleven-twelfths {
-    width: 91.666%; } }
 .special_button, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a {
   /**
    * because that's the best name
@@ -1687,13 +1548,16 @@ strong {
   min-width: 100%;
   width: 130%; }
 .ar__nav {
+  width: 31%;
+  min-height: 363px;
+  margin-right: 20px;
   padding-left: 0;
   background-color: #115d6b;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px; }
 .ar__nav .nav-link__wrapper {
-  padding: 1em;
+  padding: 0.8em;
   display: block;
   border-top: 1px solid #0e4a55;
   border-bottom: 1px solid #0e4a55; }
@@ -1706,7 +1570,9 @@ strong {
   color: white; }
 .ar__nav .nav-link--sub {
   padding: 0 0 0 0.5em;
-  display: block; }
+  display: block;
+  font-size: 1.1em;
+  line-height: 1.4; }
 
 .bkg-img {
   padding-top: 1em;
@@ -1785,7 +1651,8 @@ strong {
   text-align: right; }
 .ar__wrapper .lead, .ar__wrapper--white .lead {
   font-size: 24px;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  line-height: 1.4; }
 .ar__wrapper a, .ar__wrapper--white a {
   color: #1b96ad; }
 .ar__wrapper .highlight, .ar__wrapper--white .highlight {
@@ -1798,7 +1665,7 @@ strong {
 .link--toTop {
   margin-bottom: 2em;
   padding-top: 2em;
-  color: #555 !important;
+  color: #888 !important;
   font-size: 16px; }
 .link--toTop:after {
   content: "\2003 \2003 \2191"; }

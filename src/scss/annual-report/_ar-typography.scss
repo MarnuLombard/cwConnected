@@ -60,6 +60,7 @@
     .lead {
       font-size: 24px;
       font-size: (24 / 16) * 1rem;
+      line-height: 1.4;
     }
 
     a {
@@ -92,7 +93,7 @@
     @extend .text--center;
     margin-bottom: 2em;
     padding-top: 2em;
-    color: #555 !important;
+    color: #888 !important;
     font-size: 16px;
 
     &:after {
