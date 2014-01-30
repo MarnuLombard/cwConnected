@@ -1372,7 +1372,7 @@ input[type="text"] {
   background: none;
   padding-right: 0px; }
 
-img {
+.maxImg {
   max-width: 100%;
   height: auto; }
 
@@ -1539,11 +1539,11 @@ strong {
   color: #115d6b; }
 .ar__wrapper--blockquote {
   display: table; }
-.ar__wrapper--blockquote blockquote, .ar__wrapper--blockquote figure {
+.ar__wrapper--blockquote blockquote, .ar__wrapper--blockquote .figure {
   display: table-cell; }
-.ar__wrapper--blockquote figure {
+.ar__wrapper--blockquote .figure {
   overflow: hidden; }
-.ar__wrapper--blockquote figure img {
+.ar__wrapper--blockquote .figure img {
   max-width: none;
   min-width: 100%;
   width: 130%; }
@@ -1594,6 +1594,66 @@ strong {
   padding-left: 0;
   padding-right: 0; }
 
+.mt0 {
+  margin-top: 0; }
+
+.mt1 {
+  margin-top: 1px; }
+
+.mt2 {
+  margin-top: 2px; }
+
+.mt3 {
+  margin-top: 3px; }
+
+.mt4 {
+  margin-top: 4px; }
+
+.mt5 {
+  margin-top: 5px; }
+
+.mt6 {
+  margin-top: 6px; }
+
+.mt7 {
+  margin-top: 7px; }
+
+.mt8 {
+  margin-top: 8px; }
+
+.mt9 {
+  margin-top: 9px; }
+
+.mt10 {
+  margin-top: 10px; }
+
+.mt15 {
+  margin-top: 15px; }
+
+.mt20 {
+  margin-top: 20px; }
+
+.mt30 {
+  margin-top: 30px; }
+
+.mt40 {
+  margin-top: 40px; }
+
+.mt50 {
+  margin-top: 50px; }
+
+.mt75 {
+  margin-top: 75px; }
+
+.mt100 {
+  margin-top: 100px; }
+
+.mt150 {
+  margin-top: 150px; }
+
+.mt200 {
+  margin-top: 200px; }
+
 .ar__wrapper, .ar__wrapper--white {
   font-size: 16px;
   color: white; }
@@ -1605,6 +1665,11 @@ strong {
   color: #1b96ad;
   font-size: 70px;
   font-size: 4.38rem; }
+.ar__wrapper h1 small, .ar__wrapper--white h1 small {
+  display: block;
+  color: gray;
+  font-size: 50%;
+  text-transform: none; }
 .ar__wrapper h2, .ar__wrapper--white h2, .ar__wrapper h3, .ar__wrapper--white h3, .ar__wrapper h4, .ar__wrapper--white h4, .ar__wrapper h5, .ar__wrapper--white h5, .ar__wrapper h6, .ar__wrapper--white h6 {
   color: inherit; }
 .ar__wrapper p, .ar__wrapper--white p, .ar__wrapper blockquote, .ar__wrapper--white blockquote {
@@ -1644,12 +1709,13 @@ strong {
   text-decoration: underline; }
 .ar__wrapper p + ul, .ar__wrapper--white p + ul, .ar__wrapper p + ol, .ar__wrapper--white p + ol {
   margin-top: -2em; }
-.ar__wrapper cite, .ar__wrapper--white cite {
+.ar__wrapper .cite, .ar__wrapper--white .cite {
   display: block;
   margin-top: 1em;
   font-size: 0.8em;
   text-align: right; }
 .ar__wrapper .lead, .ar__wrapper--white .lead {
+  margin-bottom: 1.4em;
   font-size: 24px;
   font-size: 1.5rem;
   line-height: 1.4; }

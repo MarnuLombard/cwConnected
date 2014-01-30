@@ -38,11 +38,11 @@
       display: table;
 
       blockquote,
-      figure {
+      .figure {
         display: table-cell;
       }
 
-      figure {
+      .figure {
         overflow: hidden;
 
         img {
@@ -126,3 +126,25 @@
     padding-right: 0;
   }
 }
+
+//these are little margin-top magic number hacks
+.mt0  {margin-top: 0  ;}
+.mt1  {margin-top: 1px;}
+.mt2  {margin-top: 2px;}
+.mt3  {margin-top: 3px;}
+.mt4  {margin-top: 4px;}
+.mt5  {margin-top: 5px;}
+.mt6  {margin-top: 6px;}
+.mt7  {margin-top: 7px;}
+.mt8  {margin-top: 8px;}
+.mt9  {margin-top: 9px;}
+.mt10 {margin-top: 10px;}
+.mt15 {margin-top: 15px;}
+.mt20 {margin-top: 20px;}
+.mt30 {margin-top: 30px;}
+.mt40 {margin-top: 40px;}
+.mt50 {margin-top: 50px;}
+.mt75 {margin-top: 75px;}
+.mt100  {margin-top: 100px;}
+.mt150  {margin-top: 150px;}
+.mt200  {margin-top: 200px;}

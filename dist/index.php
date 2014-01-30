@@ -15,6 +15,8 @@
     <span class="nav-link__wrapper">
       <a href="#section--corruption_fighters" class="nav-link">
       Corruption Fighters Speak Up</a>
+        <a href="#section--who_are_corruption_fighters" class="nav-link--sub">
+        Who are SA’s corruption fighters?</a>
         <a href="#section--what_is_corruption_watch" class="nav-link--sub">
         What is Corruption Watch?</a>
         <a href="#section--your_voice_counts" class="nav-link--sub">
@@ -35,8 +37,6 @@
         Corruption in Government</a>
         <a href="#section--corruption_fighting_channels" class="nav-link--sub">
         Corruption Fighting Channels</a>
-        <a href="#section--who_are_corruption_fighters" class="nav-link--sub">
-        Corruption Fighting Channels</a>
         <a href="#section--corruption_hotspots" class="nav-link--sub">
         Corruption Investigated</a>
     </span>
@@ -55,8 +55,8 @@
         Public Schools’ Corruption Landscape</a>
         <a href="#section--school_corruption" class="nav-link--sub">
         School Corruption</a>
-        <a href="#section--we_dont_have_a_price" class="nav-link--sub">
-        We Don’t Have A Price!</a>
+        <a href="#section--tubilihle" class="nav-link--sub">
+        Finding financial Deceit at Tubilihle</a>
         <a href="#section--corruption_reporters" class="nav-link--sub">
         Teachers And Parents Become Corruption Reporters</a>
     </span>
@@ -95,6 +95,8 @@
   </div>
 
 </div>
+
+
 <div class="section ar__wrapper grid">
   <div class="grid__item one-whole">
     <h1 class="header--main" id="section--corruption_fighters">
@@ -104,12 +106,10 @@
     <blockquote class="grid__item seven-tenths">
       <h3> South Africa is not for sale </h3>
       The direct economic cost of corruption is huge and the impact of this behaviour is primarily felt by the poor. At the same time, corruption erodes trust in public and private sector institutions and leadership.
-      <footer>
-      <cite>
+      <span class="cite">
         <a href="#bio--david">
         David Lewis</a>
-      </cite>
-      </footer>
+      </span>
     </blockquote>
     <div class="grid__item two-tenths">
       <img src="/img/microphone.png" alt="" class="one-whole" />
@@ -118,6 +118,120 @@
 </div>
 
 <div class="section ar__wrapper grid">
+  <div class="grid__item three-fifths">
+    <h1 id="section--who_are_corruption_fighters">Who are SA’s corruption fighters?</h1>
+    <p class="lead">
+      In 2013, Corruption Watch got to know more about its force of corruption fighters.   We knew that our reporters of corruption care deeply about making South African society just and fair for all. But who exactly are these new generation activists?  We also asked them about their views on what constitutes a corrupt act, why they speak out against corruption and where they have experienced value from Corruption Watch.
+    </p>
+  </div>
+  <div class="grid__item two-fifths text-center">
+    <img src="img/who_are_corruption_fighters.png" class="maxImg" alt="" />
+  </div>
+
+  <div class="grid__item one-whole text-center">
+    <img src="img/map2.png" alt="" height="200" class="one-whole" /> <br /> <!-- Perhaps do a similar SA map icon with these percentages as per the one in the digital report?  -->
+    <p><em>Provincial distribution of corruption fighters vs. the South African population distribution by province</em></p>
+  </div>
+
+  <div class="grid__item one-whole text--center">
+    <hr />
+    <h2>Corruption fighters share their views</h2>
+  </div>
+
+  <div class="grid__item one-half mt50">
+
+    <h3>“How do you define corruption?”</h3>
+    <p>
+      Although at least 55% of our polled corruption fighters understand corruption to be an abuse of power for personal gain, bribery for accessing services and abuse of state resources for personal gain, the remaining 44% have a wider definition of it. This includes a lack of service delivery to the public, acting against the law for personal gain (including fraud) and any kind of criminal activity.
+    </p>
+  </div>
+  <div class="grid__item one-half mt50">
+    <img src="img/why_fight_corruption.png" alt="" height="300" class="one-whole" />
+  </div>
+  <div class="grid__item one-half mt50">
+    <img src="img/defining_corruption.png" alt="" height="300" class="one-whole" />
+    <em>Statistics quoted are based on the views, demographics and perceptions of a 10% research sample of Corruption Watch whistleblowers in 2013. </em>
+  </div>
+  <div class="grid__item one-half mt50">
+    <h3>“Why do you fight corruption and why do you engage with Corruption Watch?”</h3>
+    <p>
+      The biggest mover (2012 vs. 2013) that motivated our corruption fighters to speak out was that ‘the law requires us to report acts of corruption’. 48% fight corruption by reporting concerns because they felt morally obliged to do so and believe it is the right thing to do. These findings point to the rise of a promising norm in which South Africans have a fundamental respect for the law.
+    </p>
+    <p>
+      In addition, 59% of our corruption fighters polled engaged with us because they felt we were capable of combatting corruption. A massive 77% chose Corruption Watch as the institution with whom they would share their information, because they do not know of any other organisation to report to. Some 53% of the corruption fighters had previously reported their cases to organisations such as national and provincial government departments and most commonly, to the Public Protector or South African Police Service.
+    </p>
+  </div>
+</div>
+
+<div class="section ar__wrapper grid">
+  <div class="grid__item one-whole">
+    <h1>
+      How worried should we be?
+    </h1>
+    <p>
+      South Africa is on a slippery slope of corruption. This is according to the Transparency International (TI) Corruption Perception Index, which measures perceived levels of public sector corruption in a number of countries. In 2012, SA was ranked 69th of 176 countries surveyed, whilst in 2013 the country slid down to 72nd out of the 177 countries. This may not be a massive fall but it is an indicator of steady decline and South Africa’s tarnished reputation for corrupt behaviour.
+    </p>
+  Rank
+  Out of 177 countries  Country Score
+  Out of 100
+  72  Brazil  42
+  72  Sao Tome and Principe 42
+  72  Serbia  42
+  72  South Africa  42
+  77  Bulgaria  41
+  77  Senegal 41
+  77  Tunisia 41
+
+
+
+
+
+
+
+
+
+
+
+
+
+  In the African rankings, South Africa is 10th out of 48 countries. Botswana, Cape Verde, Seychelles and Rwanda top these tables. Interestingly Lesotho, a tiny and highly impoverished country surrounded by South Africa, was ranked 55th of the 177 countries on the global index. In comparison with South Africa, Lesotho has few resources to combat corruption, yet it has dealt effectively with major domestic and international perpetrators of corruption including powerful multinational companies, as was evident in the Lesotho Water Highlands Project. Lesotho demonstrates that even with limited resources, it is possible to confront major corruption issues as long as there is the political will and determination to do so.
+
+  Despite being middle-income developing countries, the BRICS countries performed poorly on the index. Brazil, Russia, India, China and South Africa urgently need to collectively prioritise fighting corruption as a collaborative objective.
+
+  Rank
+  Out of 177 countries  Country Score
+  Out of 100
+  72  Brazil  42
+  72  South Africa  42
+  80  China 40
+  94  India 36
+  127 Russia  28
+
+  With regard to corruption perception levels within the G20, South Africa is ranked in the bottom half of the countries represented in that multilateral structure. However it must be emphasised that multi-national companies from those G20 members thought to be relative corruption-free such as Canada, France, Germany and the US and UK are implicated in major corruption incidents occurring in developing countries.  Countries within the powerful G20 are not exempt from the need to combat corruption. Combatting corruption must be a major item on the G20 agenda.
+  Rank
+  Out of 177 countries  Country Score
+  Out of 100
+  9 Australia and Canada  81
+  12  Germany 78
+  14  UK  76
+  18  Japan 74
+  19  United States 73
+  22  France  71
+  53  Turkey  50
+  63  Saudi Arabia  46
+  69  Italy 43
+  72  Brazil and South Africa 42
+  80  China 40
+  94  India 36
+  106 Mexico and Argentina  34
+  114 Indonesia 32
+  127 Russia  28
+  Page 2
+  Note to Sonia: Include photo of Archbishop Njongonkulu Ndungane
+
+</div>
+
+<div class="section ar__wrapper--white grid">
   <div class="grid__item two-thirds">
     <h2>
       Remembering Nelson Rolihlahla Mandela &emsp;
@@ -137,24 +251,23 @@
 </div>
 
 <div class="section ar__wrapper grid">
+  <div class="grid__item one-whole">
+    <h1>Foreword <br />
+    <small>By Corruption Watch Board Chair: Archbishop Njongonkulu Ndungane</small></h1>
+    <h2>A Robust Public Voice Is The Conscience Of The Nation</h2>
+  </div>
   <div class="grid__item one-half">
-    <h1>Foreword</h1>
-    <h2>Corruption Watch board chair: Archbishop Njongonkulu Ndungane</h2>
-    <h3>A Robust Public Voice Is The Conscience Of The Nation</h3>
     <p>
-      Twenty-years ago South Africa stood at a precipice, unsure of the direction the winds of change would take. The fmonths ahead of the 1994 elections brought a mixed bag of emotions. Many hoped for a better future and some doubted whether change would deliver it. The leadership of Nelson Mandela became the magic cauldron that held our fears, hopes, doubts, and aspirations together, and his passing in December has renewed the vision that South Africa can benefit all who live in it.
+      Twenty-years ago South Africa stood at a precipice, unsure of the direction the winds of change would take. The months ahead of the 1994 elections brought a mixed bag of emotions. Many hoped for a better future and some doubted whether change would deliver it. The leadership of Nelson Mandela became the magic cauldron that held our fears, hopes, doubts, and aspirations together, and his passing in December has renewed the vision that South Africa can benefit all who live in it.
     </p>
     <p>
       One of the greatest achievements of our time - attained through blood, sweat and tears - is the establishment of a Constitutional Democracy. For democracy to flourish, we need to honour, respect and support the instruments that are enshrined in the Constitution. Theologian, Reinhold Neibhur reminds us that our capacity for justice as human beings makes democracy possible; our inclination to injustice makes democracy necessary.
     </p>
     <p>
-      It is of the essence of a democracy for there to be checks and balances. The biggest threat to democracy is corruption and it is, for example with great concern that we witnessed
+      It is of the essence of a democracy for there to be checks and balances. The biggest threat to democracy is corruption and it is, for example with great concern that we witnessed tensions between the Government’s Security Cluster and the Public Protector over the Nkandla debacle. All organs of State are required by the Constitution to assist and protect the Office of the Public Protector to ensure its independence, impartiality and effectiveness.
     </p>
   </div>
   <div class="grid__item one-half">
-    <p>
-     tensions between the Government’s Security Cluster and the Public Protector over the Nkandla debacle. All organs of State are required by the Constitution to assist and protect the Office of the Public Protector to ensure its independence, impartiality and effectiveness.
-    </p>
     <p>
       Corruption is theft from the public. It requires a vigilant response and should be rejected by all. What we now need is a passionate commitment to the promotion of the Common Good. Over the past two years, many have turned to Corruption Watch to report incidents of corruption or share their stories about ways in which it has affected them. More than 5 500 cases were reported, registering a willingness by the public to play their part in deepening our democracy.
     </p>
@@ -167,6 +280,7 @@
     <p>
       Each one of us can be a voice in our communities that promotes accountability and transparency. We stand to achieve better results when we do this as part of a community of like-minded people. To make inroads on corruption we need a robust and vigilant civil society, media and faith communities that can be the conscience of the nation.
     </p>
+  </div>
 </div>
 
 <div class="section ar__wrapper grid bkg-img bkg-img--1">
@@ -280,16 +394,14 @@
 <div class="section ar__wrapper grid ar__wrapper--blockquote">
   <blockquote class="grid__item one-half">
     One of the greatest achievements of our time in South Africa has been the establishment of a Constitutional Democracy. Deepening it requires accountability, transparency, ethical leadership, an end to corruption, a passionate commitment to the promotion of the Common Good as well as a vigilant and robust civil society that is the conscience of the nation.
-    <footer>
-    <cite>
+    <span class="cite">
       <a href="#bio--archbishop">
       Archbishop Njongo Ndungane</a>, Chairman of Corruption Watch
-    </cite>
-    </footer>
+    </span>
   </blockquote>
-  <figure class="grid__item one-half">
+  <div class="figure grid__item one-half">
     <img src="/img/archbishop.jpg" alt="Archbishop Njongo Ndungane" />
-  </figure>
+  </div>
 </div>
 
 <div class="section ar__wrapper grid">
@@ -304,17 +416,15 @@
 <div class="section ar__wrapper grid ar__wrapper--blockquote">
   <blockquote class="grid__item one-half">
     Corruption in South Africa is a fetter on economic growth and unless dealt with effectively, it could have devastating long-term consequences on government's ability to deliver basic services and grow confidence in the country’s institutions.
-    <footer>
-    <cite>
+    <span class="cite">
       <a href="#bio--david">
       David Lewis</a>
-    </cite>
-    </footer>
+    </span>
   </blockquote>
 
-  <figure class="grid__item one-half">
+  <div class="figure grid__item one-half">
     <img src="/img/david.jpg" alt="David Lewis" />
-  </figure>
+  </div>
 </div>
 
 <div class="section ar__wrapper grid">
@@ -332,6 +442,7 @@
         Soliciting of a bribe by a police officer or government employee to enable a member of the public to sidestep the consequences of unlawful conduct.</li>
     </ul>
   </div>
+</div>
 
 <a href="#top" class="link--toTop">Back to top</a>
 
@@ -419,7 +530,7 @@
   </h1>
 
   <div class="grid__item three-fifths">
-    <img src="/img/map.png" alt="" />
+    <img src="/img/map.png" class="maxImg" alt="" />
  <br />
     <em>
     * Data illustrates cases where reporters revealed their location.</em>
@@ -463,7 +574,7 @@
   <div class="grid__item one-third">
     <div class="Xlight">
       <p>
-        The introduction of Corruption Watch’s hotline (0800 023 456) in September 2013 has already accounted for 9% of the total reports received      </p>
+        The introduction of Corruption Watch’s hotline (0800 023 456) in September 2013 has already accounted for 12% of the total reports received      </p>
     </div>
     <div class="Xlight">
       <p>
@@ -476,44 +587,38 @@
   </div>
 </div>
 
+
 <div class="section ar__wrapper grid">
   <a href="#top" class="link--toTop">Back to top</a>
 
   <div class="grid__item one-whole">
-    <h1 id="section--who_are_corruption_fighters">
-      Who are the Corruption Fighters?</h1>
+    <h1 id="section--corruption_hotspots">
+      Corruption hotspots revealed
+    </h1>
+  </div>
 
-  </div>
-  <div class="grid__item one-half">
+  <div class="grid__item one-whole text--center">
+    <h2 class="highlight">Raising red flags</h2>
+
     <p class="lead">
-      Corruption Watch recently conducted a survey into a sample of its 2013 reporters in order to obtain a deeper understanding of those who have reported to us, and by doing so, committed to rooting out graft in our country.
+      The top four sectors from which we have received corruption reports in 2013 include:
     </p>
-  </div>
-  <div class="grid__item one-half">
-    <img src="/img/who_are_corruption_fighters.png" alt="" />
+    <img src="/img/raising_red_flags.png" class="two-thirds" alt="" />
   </div>
 </div>
 
 <div class="section ar__wrapper grid">
-  <a href="#top" class="link--toTop">Back to top</a>
+  <hr />
+</div>
 
-  <h1 class="grid__item one-whole" id="section--corruption_hotspots">
-    Corruption hotspots revealed
-  </h1>
-
+<div class="section ar__wrapper grid">
   <div class="grid__item one-half">
-    <h2>Raising red flags</h2>
-
-    <img src="/img/raising_red_flags.png" class="one-whole" alt="" />
+    <img src="/img/government_graph--2.png" class="" alt="" />
   </div>
   <div class="grid__item one-half">
-    <p class="lead">
+    <h4 class="">
       Abuse of government resources by a public official ranked as the most prevalent type of corruption reported in 2013, up by 9% compared to Corruption Watch’s 2012 data. Corruption in procurement processes was found in 18% of the cases and bribery in 16%, while corruption in employment was alleged in 9% of cases.
-   </p>
-  </div>
-  <p>&nbsp;</p>
-  <div class="grid__item one-whole text--center">
-    <img src="/img/government_graph--2.png" alt="" />
+   </h4>
   </div>
 </div>
 
@@ -653,17 +758,16 @@ Back to top</a>
   <h2>
     Who are the corruption fighters?  </h2>
     <img src="/img/corruption_fighters.png" alt="" />
-    <p>
-    </p>
+    <p>&nbsp;</p>
   </div>
-  <div class="grid__item one-half">
+  <div class="grid__item one-third">
     <h2>
       How are corruption fighters reporting concerns?    </h2>
     <p>
     The preferred methods of reporting school-related corruption concerns were via SMS and the Corruption Watch website. Email correspondence rated the fourth highest in terms of communication channel preferences. Our hotline, only launched in September 2013, accounted for a substantial 16% of schools reports. Notably, a large proportion of corruption fighters are choosing to provide us with their contact details, while less than 25% have chosen to remain anonymous.</p>
   </div>
-  <div class="grid__item one-half text--center">
-    <img src="/img/reporting_methods.png" alt="" />
+  <div class="grid__item two-thirds text--center">
+    <img src="/img/reporting_methods.png" class="one-whole" alt="" />
   </div>
   </div>
 <a href="#top" class="link--toTop">
@@ -682,36 +786,16 @@ Back to top</a>
   </div>
   <div class="grid__item one-whole bkg-img bkg-img--3 text--center">
     <img src="/img/school_hotspots--graph.png" alt="" />
-    <p>
-    </p>
+    <p>&nbsp;</p>
   </div>
-  </div>
+</div>
+
 <div class="section ar__wrapper grid">
   <a href="#top" class="link--toTop">Back to top</a>
 
-  <h1 class="grid__item one-whole" id="section--we_dont_have_a_price">
-    We don’t have a price!  </h1>
-  <p class="lead">
-    This is what Sibongile Mtuki, the Deputy Principal of Thubelihle Intermediate School, who was part of a group of teachers who blew the whistle on the corruption, had to say:  </p>
-  <blockquote class="grid__item three-quarters">
-    <p>
-      What raised our suspicions was the fact that the same person [The former SGB Chair] was elected repeatedly as chairperson of the SGB. There is protocol that must be followed when choosing members of the SGB and the principal. All parents of learners are eligible for election as a member of the SGB.    </p>
-    <p>
-      We decided at the last election that we did not want him [The former Chair] back because he did not qualify to be a member of the SGB. We needed a new person with ideas and innovative thinking for the benefit of the school. Unfortunately though, he was elected once again even though he did not qualify.    </p>
-    <p>
-      The situation now is that the SGB feels that we acted unfairly against the principal. They are relatively new, so I understand where they are coming from. They were not there when things started going wrong.    </p>
-    <p>
-      There has been no honesty with regards to the running of the school and that looks bad in the eyes of the community. We don’t have confidence in you [Usiba]. We don’t need you.    </p>
-    <footer>
-    <cite>
-     Sibongile Mtuki    </cite>
-     </footer>
-  </blockquote>
-  <img src="/img/sibongile.jpg" alt="Sibongile Mtuki" class="grid__item one-quarter" />
-  </div>
-<div class="section ar__wrapper grid">
-  <h2 class="grid__item one-whole">
-    Finding financial deceit at Thubelihle  </h2>
+  <h1 class="grid__item one-whole" id="section--tubilihle">
+    Finding financial deceit at Thubelihle
+  </h1>
   <div class="grid__item one-half">
     <p>
       In February 2013, Corruption Watch received a complaint from a group of teachers at Thubelihle Intermediate School in White City, Soweto. It was alleged that the principal, Nonzwakazi Usiba and others were using the school’s resources for private gain.</p>
@@ -727,7 +811,7 @@ Back to top</a>
     </ul>
   </div>
   <div class="grid__item one-half">
-    <ul>
+    <ul class="mt0">
       <li>
         Fake invoices were created against which payment was made to unknown individuals. </li>
     </ul>
@@ -737,7 +821,27 @@ Back to top</a>
     <p>
       As a result of the Corruption Watch investigation, the school principal has been suspended and faces disciplinary action, as well as possible criminal action.  </p>
   </div>
+
+  <h2 class="grid__item one-whole mt50">
+    We don’t have a price!  </h2>
+  <p class="lead">
+    This is what Sibongile Mtuki, the Deputy Principal of Thubelihle Intermediate School, who was part of a group of teachers who blew the whistle on the corruption, had to say:  </p>
+  <blockquote class="grid__item three-quarters">
+    <p>
+      What raised our suspicions was the fact that the same person [The former SGB Chair] was elected repeatedly as chairperson of the SGB. There is protocol that must be followed when choosing members of the SGB and the principal. All parents of learners are eligible for election as a member of the SGB.    </p>
+    <p>
+      We decided at the last election that we did not want him [The former Chair] back because he did not qualify to be a member of the SGB. We needed a new person with ideas and innovative thinking for the benefit of the school. Unfortunately though, he was elected once again even though he did not qualify.    </p>
+    <p>
+      The situation now is that the SGB feels that we acted unfairly against the principal. They are relatively new, so I understand where they are coming from. They were not there when things started going wrong.    </p>
+    <p>
+      There has been no honesty with regards to the running of the school and that looks bad in the eyes of the community. We don’t have confidence in you [Usiba]. We don’t need you.    </p>
+      <span class="cite">
+       Sibongile Mtuki
+      </span>
+  </blockquote>
+  <img src="/img/sibongile.jpg" alt="Sibongile Mtuki" class="grid__item one-quarter" />
 </div>
+
 
 <a href="#top" class="link--toTop">Back to top</a>
 
@@ -830,16 +934,15 @@ Back to top</a>
   </div>
 <div class="section ar__wrapper grid ar__wrapper--blockquote">
   <blockquote class="grid__item three-quarters">
-    We have reason to be proud of our achievements over the past twenty years as a free and democratic country. Corruption in public places, if not exposed and vigorously opposed, will certainly limit economic development, deepen poverty and lead to unmanageable social instability.    <footer>
-    <cite>
-      <a href="#bio--mavuso">
-      Mavuso Msimang</a>
-    </cite>
-    </footer>
+    We have reason to be proud of our achievements over the past twenty years as a free and democratic country. Corruption in public places, if not exposed and vigorously opposed, will certainly limit economic development, deepen poverty and lead to unmanageable social instability.
+      <span class="cite">
+        <a href="#bio--mavuso">
+        Mavuso Msimang</a>
+      </span>
   </blockquote>
-  <figure class="grid__item one-quarter">
+  <div class="figure grid__item one-quarter">
     <img src="/img/mavuso.jpg" alt="Mavuso Msimang" />
-  </figure>
+  </div>
   </div>
 <div class="section ar__wrapper grid">
 </div>
@@ -936,20 +1039,19 @@ Back to top</a>
       Corruption Watch believes – and argued in court – that when a clear cut and relatively simple procedural requirement has not been met, we have to ask why. In its judgment the Constitutional Court referenced Corruption Watch’s contribution concerning irregularities in public procurement being red flags for corruption. The Court held that “deviations from fair process may themselves all too often be symptoms of corruption or malfeasance in the process. In other words, an unfair process may betoken a deliberately skewed process”.    </p>
     <p>
       In the judgment Judge Froneman held that compliance with the requirements of a tender process is crucial and that insistence on compliance serves three purposes:
-      <ol>
-        <li>
-        To ensure fairness to participants in the bid process</li>
-        <li>
-        To enhance the likelihood of efficiency and optimality in the outcome</li>
-        <li>
-        To serve as a guardian against a process skewed by corrupt influences</li>
-      </ol>
     </p>
+    <ol>
+      <li>
+      To ensure fairness to participants in the bid process</li>
+      <li>
+      To enhance the likelihood of efficiency and optimality in the outcome</li>
+      <li>
+      To serve as a guardian against a process skewed by corrupt influences</li>
+    </ol>
     <p>
       The Court found that SASSA had failed to  give sufficient regard to the importance of black economic empowermen in procurement. SASSA had an obligation to confirm the empowerment credentials of bidders before the award. It also found that the Second Bidders’ notice issued during the tender process was vague and uncertain, and gave rise to procedural unfairness.</p>
     <p>
-      <!-- Though despite the fact that the Court declared the award of the tender to CPS invalid, it remains in place for the time being. -->
- The Court has ordered the parties to return to court on 11 February 2014 to present evidence as to a “just and equitable” remedy.    </p>
+      The Court has ordered the parties to return to court on 11 February 2014 to present evidence as to a “just and equitable” remedy.    </p>
   </div>
   <hr />
   <div class="grid__item one-whole">
@@ -1026,9 +1128,8 @@ Back to top</a>
       Tendering for a municipal contract when you are an employee of the municipality.</li>
     </ul>
     <p>
-      <a href="#">
+      <a href="http://www.corruptionwatch.org.za/sites/default/files/conflict-of-interest-corruption-watch.pdf" target="_blank">
       Read more about what South African law says about conflicts of interest.</a>
-      <!-- (Insert hyperlink to the CW Conflict of Interest brochure) -->
     </p>
   </div>
   </div>
@@ -1054,8 +1155,7 @@ Back to top</a>
   <div class="grid__item one-half">
     <p>
       2013 has been an eventful year for Corruption Watch. Reports of corruption have continued to stream in. We have launched our schools campaign, which has attracted <a href="#section--schools">
-      large numbers of reports of school related corruption</a>
-.    </p>
+      large numbers of reports of school related corruption</a>.</p>
     <h5>
       Amplifying your voice    </h5>
     <img src="/img/megaphone--white.png" alt="" class="one-quarter float--left" />
@@ -1129,7 +1229,7 @@ Back to top</a>
   <div class="grid__item one-half">
     <a href="bio--archbishop">
     </a>
-    <img src="/img/board/Ndungane.jpg" alt="Archbishop Njongonkulu Ndungane" class="float--left one-fifth">
+    <img src="/img/board/Ndungane.jpg" alt="Archbishop Njongonkulu Ndungane" class="float--left one-fifth" />
     <h3>
     Archbishop Njongonkulu Ndungane</h3>
     <h4>
@@ -1137,9 +1237,7 @@ Back to top</a>
     <p>
       Archbishop Njongonkulu Ndungane is the former Anglican archbishop of Cape Town and a recipient of the Order of the Grand Counsellor of the Baobab in silver. He retired in 2007 from religious service but is still active in society.    </p>
     <p>
-      His current positions include president and founder of <a href="http://www.africanmonitor.org/" target="_blank">
-      African Monitor</a>
-, the executive director of the Historic Schools Restoration Project, the chairman of the Council of the University of Cape Town, and a trustee of The Sunfoil Educational Trust, recently formed by Cricket South Africa.    </p>
+      His current positions include president and founder of <a href="http://www.africanmonitor.org/" target="_blank">African Monitor</a>, the executive director of the Historic Schools Restoration Project, the chairman of the Council of the University of Cape Town, and a trustee of The Sunfoil Educational Trust, recently formed by Cricket South Africa.    </p>
     <p>
       Ndungane’s social activism began when he was a student at the University of Cape Town (UCT) and was involved in anti-pass law demonstrations, which led to arrest and a three-year prison sentence on Robben Island – during this time he received the call to serve God, and was ordained a priest in July 1974. This period of his life is referenced in the title of his biography, From Robben Island to Bishopscourt. He studied abroad at King’s College in London, earning a bachelor of divinity, honours and master of theology in Christian ethics, and on his return to South Africa took up a post as rector of St Nicholas, Matroosfontein.    </p>
     <p>
@@ -1147,7 +1245,7 @@ Back to top</a>
     <p>
       Ndungane is known for his commitment to social issues, such as poverty alleviation, the Millennium Development Goals, and the transformation of historically significant and under-resourced schools in South Africa into centres of cultural and educational excellence.    </p>
   <hr />
-    <img src="/img/board/Hassim.jpg" alt="Adila Hassim" class="float--left one-fifth">
+    <img src="/img/board/Hassim.jpg" alt="Adila Hassim" class="float--left one-fifth" />
     <h3>
     Adila Hassim</h3>
     <h4>
@@ -1157,11 +1255,10 @@ Back to top</a>
     <p>
       Hassim earned a BA and LLB from the University of Natal, and later an LLM from the St Louis University School of Law in the United States as well as a JSD, or doctorate in law, cum laude from the University of Notre Dame Law School. She is a member of the Johannesburg Bar and was admitted as an advocate of the High Court of South Africa in 2003.    </p>
     <p>
-      A prolific author, Hassim has published in in law journals, health journals and newspapers and has co-authored books on human rights and health law. She is a member of the <a href="http://www.nadel.co.za/" targe="_blank">
-      National Association of Democratic Lawyers</a>
+      A prolific author, Hassim has published in in law journals, health journals and newspapers and has co-authored books on human rights and health law. She is a member of the <a href="http://www.nadel.co.za/" target="_blank">National Association of Democratic Lawyers</a>
  and an honorary member of the TAC.    </p>
   <hr />
-    <img src="/img/board/Brown.jpg" alt="Alice Brown" class="float--left one-fifth">
+    <img src="/img/board/Brown.jpg" alt="Alice Brown" class="float--left one-fifth" />
     <h3>
     Alice Brown</h3>
     <h4>
@@ -1177,7 +1274,7 @@ Back to top</a>
     <p>
       Currently she is called upon to advise and speak on a broad range of topics including philanthropic giving, good governance, leadership development, organisational effectiveness and public interest law.    </p>
   <hr />
-    <img src="/img/board/Lewis.jpg" alt="David Lewis" class="float--left one-fifth">
+    <img src="/img/board/Lewis.jpg" alt="David Lewis" class="float--left one-fifth" />
     <h3 id="bio--david">
     David Lewis</h3>
     <h4>
@@ -1194,7 +1291,7 @@ Back to top</a>
       Lewis is also an author and his book <a href="http://www.amazon.com/Thieves-Dinner-Table-Enforcing-Competition/dp/1431403709" target="_blank">
       Thieves at the Dinner Table: Enforcing the Competition Act</a> – a Personal Account was published in 2012.    </p>
   <hr />
-    <img src="/img/board/Mashinini.jpg" alt="Emma Mashinini" class="float--left one-fifth">
+    <img src="/img/board/Mashinini.jpg" alt="Emma Mashinini" class="float--left one-fifth" />
     <h3>
     Emma Mashinini</h3>
     <h4>
@@ -1207,7 +1304,7 @@ Back to top</a>
     <p>
       Her autobiography is titled <a href="http://www.kalahari.com/Books/Strikes-Have-Followed-Me-All-My-Life_p_44917299" target="_blank"> Strikes Have Followed Me All My Life</a>. </p>
   <hr />
-    <img src="/img/board/ORegan.jpg" alt="Kate O’Regan" class="float--left one-fifth">
+    <img src="/img/board/ORegan.jpg" alt="Kate O’Regan" class="float--left one-fifth" />
     <h3>
     Kate O’Regan</h3>
     <h4>
@@ -1220,7 +1317,7 @@ Back to top</a>
       In the early 1980’s, O’Regan worked in Johannesburg as an attorney, representing trade unions, anti-apartheid organisations and communities facing eviction under apartheid land policy.    </p>
   </div>
   <div class="grid__item one-half">
-    <img src="/img/board/Metcalfe.jpg" alt="Mary Metcalfe" class="float--left one-fifth">
+    <img src="/img/board/Metcalfe.jpg" alt="Mary Metcalfe" class="float--left one-fifth" />
     <h3>
     Mary Metcalfe</h3>
     <h4>
@@ -1232,7 +1329,7 @@ Back to top</a>
     <p>
       Metcalfe was elected as a member of the African National Congress in the Gauteng Provincial Legislature in 1994 and was a member of the executive council for education in the province from 1994 to 1999. This was followed by an appointment as MEC for agriculture, conservation, environment and land. In 2004 she returned to education, joining Wits as head of the School of Education. In 2009 she was appointed director-general of the new national <a href="http://www.dhet.gov.za/" target="_blank"> Department of Higher Education and Training</a> and worked in education at the Development Bank of Southern Africa from 2011 to 2013.    </p>
   <hr />
-    <img src="/img/board/Msimang.jpg" alt="Mavuso Msimang" class="float--left one-fifth">
+    <img src="/img/board/Msimang.jpg" alt="Mavuso Msimang" class="float--left one-fifth" />
     <h3 id="bio--mavuso">
     Mavuso Msimang</h3>
     <h4>
@@ -1247,7 +1344,7 @@ Back to top</a>
       His non-executive board directorships include the African Parks Network and the <a href="http://www.peaceparks.co.za/" target="_blank">
       Peace Parks Foundation</a>, and he is chairperson of the iSimangaliso Wetland Park, a world heritage site.    </p>
   <hr />
-    <img src="/img/board/Pikoli.jpg" alt="Vusi Pikoli" class="float--left one-fifth">
+    <img src="/img/board/Pikoli.jpg" alt="Vusi Pikoli" class="float--left one-fifth" />
     <h3>Vusi Pikoli</h3>
     <h4>
     Former head of the National Prosecuting Authority</h4>
@@ -1263,7 +1360,7 @@ Back to top</a>
       In August 2012 <a href="http://www.politicsweb.co.za/politicsweb/view/politicsweb/en/page71654?oid=321110&sn=Detail&pid=71654" target="_blank">
       he and Kate O’Regan were appointed as co-commissioners of a commission of inquiry</a> into allegation of police inefficiency in Khayelitsha in the Western Cape. The commission is due to start public hearings towards the end of January 2014.    </p>
   <hr />
-    <img src="/img/board/Dubula.jpg" alt="Vuyiseka Dubula" class="float--left one-fifth">
+    <img src="/img/board/Dubula.jpg" alt="Vuyiseka Dubula" class="float--left one-fifth" />
     <h3>Vuyiseka Dubula</h3>
     <h4>General secretary of the Treatment Action Campaign</h4>
     <p>
@@ -1275,7 +1372,7 @@ Back to top</a>
     <p>
       She holds a BA in health sciences and social services from Unisa, with a specialisation in applied psychology and a postgraduate diploma and an MPhil in HIV/Aids management from the University of Stellenbosch. Her work on behalf of people living with HIV has garnered her two prestigious international awards - the Letten Foundation Courageous Leadership Award in 2004 and, in 2010, the Lloyd Foundation Leadership Award, which recognises, develops and empowers HIV/Aids advocacy leadership.    </p>
   <hr />
-    <img src="/img/board/Vavi.jpg" alt="Zwelinzima Vavi" class="float--left one-fifth">
+    <img src="/img/board/Vavi.jpg" alt="Zwelinzima Vavi" class="float--left one-fifth" />
     <h3>Zwelinzima Vavi</h3>
     <h4>General secretary of the Congress of South African Trade Unions <em>(suspended)</em></h4>
     <p>
@@ -1359,19 +1456,20 @@ Back to top</a>
     <p>
       The Sigrid Rausing Trust is a grant-making foundation, which focuses on supporting human rights globally. Since being founded by Sigrid Rausing in 1995, the Trust has donated approximately R2.7-billion to human rights organisations worldwide.    </p>
 
-  <h2>Media and advertising supporters</h2>
+  <h4>Thanks to the media for their vigilance and willingness to work with us in exposing corruption; and to all our service providers who have given us discounted rates in support of the fight against corruption. </h4>
 
-  <strong>Concursive Corporation</strong> <br />
+  <!--<strong>Concursive Corporation</strong> <br />
   <strong>Daily Sun</strong> <br />
   <strong>Indigo New Media</strong> <br />
   <strong>Jacaranda FM </strong> <br />
   <strong>Jozi FM </strong> <br />
   <strong>Lead SA</strong> <br />
   <strong>Mbongi Works </strong> <br />
+  <strong>Mxit Reach</strong> <br />
   <strong>Radio702 </strong> <br />
   <strong>SABC </strong> <br />
   <strong>The Sunday Times </strong> <br />
-  <strong>The Star Newspaper </strong>
+  <strong>The Star Newspaper </strong>-->
 
   </div>
 </div>

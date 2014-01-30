@@ -16,6 +16,12 @@
       color: $color-secondary_light;
       font-size: 70px;
       font-size: (70 / 16) * 1rem;
+      small {
+        display: block;
+        color: $color-grey;
+        font-size: 50%;
+        text-transform: none;
+      }
     }
 
     h2, h3, h4, h5, h6 {
@@ -51,13 +57,14 @@
       margin-top: -2em;
       }
     }
-    cite {
+    .cite {
       display: block;
       margin-top: 1em;
       font-size: 0.8em;
       text-align: right;
     }
     .lead {
+      margin-bottom: 1.4em;
       font-size: 24px;
       font-size: (24 / 16) * 1rem;
       line-height: 1.4;
