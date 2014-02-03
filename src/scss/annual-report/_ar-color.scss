@@ -10,12 +10,15 @@
   @include e(wrapper) {
     .Xlight {
       margin-bottom: 1em;
-      padding: 2em 1em 0em;
-      background-color: $color-secondary_Xlight;
-      border: 1px solid $color-secondary_light;
+      padding: 2em 1em 0.1em;
+      background-color: $color-secondary;
+
+      * {
+        color: white !important;
+      }
+
 
       a {
-        color: $color-text !important;
         text-decoration: underline;
       }
     }
@@ -27,8 +30,7 @@
     }
 
     hr {
-      width: 80%;
-      margin-bottom: 3em;
+      margin: 1em auto;
       border: 1px inset gray;
     }
   }// ar--wapper

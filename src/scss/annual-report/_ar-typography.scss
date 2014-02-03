@@ -14,19 +14,30 @@
 
     h1 {
       color: $color-secondary_light;
-      font-size: 70px;
-      font-size: (70 / 16) * 1rem;
+      font-size: 54px;
+      font-size: (54 / 16) * 1rem;
       small {
         display: block;
         color: $color-grey;
         font-size: 50%;
         text-transform: none;
       }
+
+    }
+
+    h2 {
+      font-size: 38px;
+      font-size: (38 / 16) * 1rem;
     }
 
     h2, h3, h4, h5, h6 {
       color: inherit;
     }
+
+    .smallish {
+      font-size: 85%;
+    }
+
     p,
     blockquote {
       margin-bottom: 2.5em;
@@ -41,14 +52,16 @@
       line-height: 1.5;
       color: white;
 
-      @include pull-quotes(111px, 0.3, white);
       @include border-radius(5px);
       @include box-shadow(0 0 0 2px $color-primary_Xdark inset);
 
-      a {
+      p {
+        @include pull-quotes(111px, 0.3, white);
+      }
+      /* a {
         color: white !important;
         text-decoration: underline;
-      }
+      } */
     }// blockquote
 
     p {
@@ -71,18 +84,26 @@
     }
 
     a {
-      color: $color-secondary_light;
+      color: white;
+      text-decoration: underline;
+
+      .ar__wrapper--white & {
+        color: $color-text
+      }
+      &:hover {
+        color: #7bb7cd;
+      }
     }
 
     .highlight {
-      color: $color-primary;
+      color: $color-primary !important;
     }
     .lowlight {
-      color: $color-secondary;
+      color: $color-secondary_light;
     }
 
     .header--main {
-      // @extend .highlight;
+      @extend .highlight;
       @extend .giga;
       @extend .text--center;
     }
@@ -97,7 +118,8 @@
 .link--toTop {
     @extend .grid__item;
     @extend .one-whole;
-    @extend .text--center;
+    // @extend .text--center;
+    margin-top: -3.5em;
     margin-bottom: 2em;
     padding-top: 2em;
     color: #888 !important;
@@ -105,5 +127,14 @@
 
     &:after {
       content: "\2003 \2003 \2191";
+    }
+
+    &:hover {
+      color: $color-secondary_light;
+    }
+
+    .header--main + & {
+      text-align: center;
+      margin-top: -2em;
     }
   }// link--toTop

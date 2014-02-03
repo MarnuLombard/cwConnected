@@ -375,13 +375,13 @@ $dropcap-bg: transparent !default;
 	}
 	&:before {
 		content: '“';
-		top:  0;
-		left: 7px;
+		top:  -60px;
+		left: -40px;
 	}
 	&:after {
 		content: '”';
-		bottom: 0;
-		right: 7px;
+		bottom: -60px;
+		right: -30px;
 	}
 }
 
