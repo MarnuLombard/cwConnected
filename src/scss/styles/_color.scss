@@ -10,4 +10,20 @@ html{
   border: 0;
   background-image: none;
   background-color: #aaa;
+
+  a[href*="annual_report.shtml"] {
+    @extend .special_button;
+    font-size: 1.3em;
+  }
+}
+
+// Need to be really specific else it affects hrs everywhere
+#ccp-body-home{
+ .portletWindowBackground hr {
+    width: 110%;
+    height: 16px;
+    margin-left: -5%;
+    margin-bottom: 1em;
+    background-color: white;
+  }
 }

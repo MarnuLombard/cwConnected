@@ -14,7 +14,8 @@
       }
     }
 
-    .social_media a {
+    .social_media a,
+    .social_media .a {
 
       img {
         padding-right: 0.5em;
@@ -149,9 +150,8 @@
   width: 100%;
   border: 3px solid black;
   background-color: $color-grey_light;
+  font-family: $font-body_alt;
   color: $color-text;
-  tr {
-  }
 
   th,
   td {
@@ -159,7 +159,7 @@
   }
 
   th {
-    font-family: $font-body_alt;
     padding: 0.6em;
   }
+
 }

@@ -15,7 +15,7 @@
     h1 {
       color: $color-secondary_light;
       font-size: 54px;
-      font-size: (54 / 16) * 1rem;
+      font-size: (54 / 18) * 1rem;
       small {
         display: block;
         color: $color-grey;
@@ -27,7 +27,7 @@
 
     h2 {
       font-size: 38px;
-      font-size: (38 / 16) * 1rem;
+      font-size: (38 / 18) * 1rem;
     }
 
     h2, h3, h4, h5, h6 {
@@ -79,8 +79,13 @@
     .lead {
       margin-bottom: 1.4em;
       font-size: 24px;
-      font-size: (24 / 16) * 1rem;
+      font-size: (24 / 18) * 1rem;
       line-height: 1.4;
+
+      &.smallish {// because fucking client
+        font-size: 20px;
+        font-size: (20 / 18) * 1rem;
+      }
     }
 
     a {
@@ -123,10 +128,11 @@
     margin-bottom: 2em;
     padding-top: 2em;
     color: #888 !important;
+    font-family: $font-body_alt;
     font-size: 16px;
 
     &:after {
-      content: "\2003 \2003 \2191";
+      content: "\2003 \2191";
     }
 
     &:hover {

@@ -124,3 +124,9 @@ body[id^="ccp-body"] div[id^="portletWindow"]{
 	}
 }
 
+// For the scrollers on other pages
+.widget-home-autoscroller-portletWindowBackground h2 {
+	padding-top: 1em;
+	color: white;
+	text-align: center;
+}

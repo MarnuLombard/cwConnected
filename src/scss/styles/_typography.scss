@@ -14,6 +14,13 @@ body {
     &:hover {
       color: #7bb7cd;
     }
+
+  }
+}
+
+.portletWindowBackground a { // this bkg is grey. we need a darker color on hover
+  &:hover {
+    color: darken(#296dd1, 15%);
   }
 }
 
@@ -81,6 +88,9 @@ strong {
 
 .text--center {
   text-align: center;
+}
+.text--justfy {
+  text-align: justify;
 }
 
 

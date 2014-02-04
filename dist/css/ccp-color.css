@@ -9,7 +9,7 @@
  * author of CSS : 				Marnu Lombard / indigo.co.za
  * libraries : 						Sass, Compass, CSSWizardry Grids, Normalize, Sassy Buttons, Typeplate
  */
-.ccp-header .ccp-navigation ul:after, .special_button, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #ccp-search-near, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #srch_loc_fld, .ccp-header .ccp-navigation ul li[id^="ccp-tabitem-"] {
+.ccp-header .ccp-navigation ul:after, .special_button, .portletWindowBackground a[href*="annual_report.shtml"], .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/login"], .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/register"], body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #ccp-search-near, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #srch_loc_fld, .ccp-header .ccp-navigation ul li[id^="ccp-tabitem-"] {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -25,7 +25,7 @@
 
 /* ==============[ Bulletproof fontface mixin ]============== */
 /* ==============[ Basic Gradient mixin ]============== */
-.ccp-header .ccp-navigation ul:after, .special_button, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #ccp-search-near, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #srch_loc_fld, .ccp-header .ccp-navigation ul li[id^="ccp-tabitem-"] {
+.ccp-header .ccp-navigation ul:after, .special_button, .portletWindowBackground a[href*="annual_report.shtml"], .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/login"], .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/register"], body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #ccp-search-near, .ccp-header .ccp-header-menu .ccp-search-form #ccp-search-location #srch_loc_fld, .ccp-header .ccp-navigation ul li[id^="ccp-tabitem-"] {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -498,9 +498,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.25rem; }
 
 .giga, .ar__wrapper .header--main, .ar__wrapper--white .header--main {
-  font-size: 100px;
-  font-size: 5.56rem;
-  margin-bottom: 0.3rem; }
+  font-size: 85px;
+  font-size: 4.72rem;
+  margin-bottom: 0.35rem; }
 
 .mega {
   font-size: 72px;
@@ -517,7 +517,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2.11rem;
   margin-bottom: 0.78rem; }
 
-.gamma, h3, .special_button, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a, .portlet-section-body h1, .vcard h2 {
+.gamma, h3, .special_button, .portletWindowBackground a[href*="annual_report.shtml"], .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/login"], .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/register"], body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a, .portlet-section-body h1, .vcard h2 {
   font-size: 30px;
   font-size: 1.67rem;
   margin-bottom: 0.99rem; }
@@ -992,11 +992,12 @@ p + .drop-cap {
 .push--eleven-twelfths {
   left: 91.665%; }
 
-.special_button, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a {
+.special_button, .portletWindowBackground a[href*="annual_report.shtml"], .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/login"], .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/register"], body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a {
   /**
    * because that's the best name
    * I can think of right now
    */
+  margin-bottom: 15.84px;
   padding: 3px 15px;
   background-color: #115d6b;
   color: #1b96ad;
@@ -1009,10 +1010,10 @@ p + .drop-cap {
   -o-transition: color 0.3s ease-in;
   -webkit-transition: color 0.3s ease-in;
   transition: color 0.3s ease-in; }
-.special_button:hover, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a:hover {
+.special_button:hover, .portletWindowBackground a[href*="annual_report.shtml"]:hover, .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/login"]:hover, .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/register"]:hover, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a:hover {
   color: #36c5df; }
-.special_button:active, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a:active {
-  margin: 3px 0 0 3px;
+.special_button:active, .portletWindowBackground a[href*="annual_report.shtml"]:active, .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/login"]:active, .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/register"]:active, body[id^="ccp-body"] div[id^="portletWindow"] .ccp-slide a:active {
+  margin: 3px 0 15.84px 3px;
   padding: 3px 12px 0 15px;
   -moz-box-shadow: 3px 3px 0 #031013;
   -webkit-box-shadow: 3px 3px 0 #031013;
@@ -1114,6 +1115,15 @@ html {
   border: 0;
   background-image: none;
   background-color: #aaa; }
+.portletWindowBackground a[href*="annual_report.shtml"] {
+  font-size: 1.3em; }
+
+#ccp-body-home .portletWindowBackground hr {
+  width: 110%;
+  height: 16px;
+  margin-left: -5%;
+  margin-bottom: 1em;
+  background-color: white; }
 
 input[type="text"] {
   -moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -1247,14 +1257,33 @@ input[type="text"] {
   @extend %inline-block__hack; */
   display: none; }
 .ccp-header .ccp-header-menu .ccp-user-menu {
-  display: block;
+  display: table;
   float: left;
-  width: 70%; }
+  width: 70%;
+  			/* li.first,
+  			li.first+li {
+  				width: 150px;
+  				display: block;
+  			}
+  
+  			li.first+li {
+  				margin-bottom: 1em;
+  			} */ }
+.ccp-header .ccp-header-menu .ccp-user-menu a[href*="/login"], .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/register"] {
+  width: 150px;
+  margin-bottom: 0;
+  display: block;
+  font-size: 1.3em;
+  text-align: center; }
+.ccp-header .ccp-header-menu .ccp-user-menu a[href*="/login"]:active, .ccp-header .ccp-header-menu .ccp-user-menu a[href*="/register"]:active {
+  margin-bottom: 0; }
+.ccp-header .ccp-header-menu .ccp-user-menu a[href*="/register"] {
+  margin-bottom: 1em; }
 .ccp-header .ccp-header-menu .ccp-search-form {
   margin: 0;
   position: absolute;
-  left: 0;
-  top: 25px; }
+  right: 0;
+  top: 0; }
 .ccp-header .ccp-header-menu .ccp-search-form #applesearch {
   margin-left: 0; }
 .ccp-header .ccp-header-menu .ccp-search-form #applesearch input[type="search"] {
@@ -1407,6 +1436,63 @@ input[type="text"] {
 .mt200 {
   margin-top: 200px; }
 
+.mt-1 {
+  margin-top: -1px; }
+
+.mt-2 {
+  margin-top: -2px; }
+
+.mt-3 {
+  margin-top: -3px; }
+
+.mt-4 {
+  margin-top: -4px; }
+
+.mt-5 {
+  margin-top: -5px; }
+
+.mt-6 {
+  margin-top: -6px; }
+
+.mt-7 {
+  margin-top: -7px; }
+
+.mt-8 {
+  margin-top: -8px; }
+
+.mt-9 {
+  margin-top: -9px; }
+
+.mt-10 {
+  margin-top: -10px; }
+
+.mt-15 {
+  margin-top: -15px; }
+
+.mt-20 {
+  margin-top: -20px; }
+
+.mt-30 {
+  margin-top: -30px; }
+
+.mt-40 {
+  margin-top: -40px; }
+
+.mt-50 {
+  margin-top: -50px; }
+
+.mt-75 {
+  margin-top: -75px; }
+
+.mt-100 {
+  margin-top: -100px; }
+
+.mt-150 {
+  margin-top: -150px; }
+
+.mt-200 {
+  margin-top: -200px; }
+
 .ccp-alert {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -1433,7 +1519,8 @@ input[type="text"] {
   padding-right: 0px; }
 
 .maxImg {
-  max-width: 100%;
+  width: 100%;
+  max-width: 1040px;
   height: auto; }
 
 #ccp-body-home .portletTable1 {
@@ -1486,6 +1573,11 @@ body[id^="ccp-body"] div[id^="portletWindow"] .yui-carousel-first-button {
 #ccp-carousel-photos .itemTable {
   text-align: center; }
 
+.widget-home-autoscroller-portletWindowBackground h2 {
+  padding-top: 1em;
+  color: white;
+  text-align: center; }
+
 @font-face {
   font-family: "League-Gothic";
   src: url("../fonts/League-Gothic.eot");
@@ -1525,6 +1617,9 @@ body a {
 body a:hover {
   color: #7bb7cd; }
 
+.portletWindowBackground a:hover {
+  color: #1c4c91; }
+
 h1, h2 {
   text-transform: uppercase; }
 
@@ -1559,6 +1654,9 @@ strong {
 .text--center, .ar__wrapper .header--main, .ar__wrapper--white .header--main {
   text-align: center; }
 
+.text--justfy {
+  text-align: justify; }
+
 #ccp-body-annual_report .ccp-body {
   background-color: #333333; }
 
@@ -1587,7 +1685,7 @@ strong {
   text-align: center; }
 .ar__wrapper .icon__wrapper img, .ar__wrapper--white .icon__wrapper img {
   margin: 0 auto; }
-.ar__wrapper .social_media a img, .ar__wrapper--white .social_media a img {
+.ar__wrapper .social_media a img, .ar__wrapper--white .social_media a img, .ar__wrapper .social_media .a img, .ar__wrapper--white .social_media .a img {
   padding-right: 0.5em; }
 .ar__wrapper--white {
   padding-top: 1em;
@@ -1667,11 +1765,11 @@ strong {
   width: 100%;
   border: 3px solid black;
   background-color: #a6a6a6;
+  font-family: "Lato-Regular", "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #202226; }
 .dataTable th, .dataTable td {
   border: 1px solid #5a5a5a; }
 .dataTable th {
-  font-family: "Lato-Regular", "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   padding: 0.6em; }
 
 .ar__wrapper, .ar__wrapper--white {
@@ -1684,7 +1782,7 @@ strong {
 .ar__wrapper h1, .ar__wrapper--white h1 {
   color: #1b96ad;
   font-size: 54px;
-  font-size: 3.38rem; }
+  font-size: 3rem; }
 .ar__wrapper h1 small, .ar__wrapper--white h1 small {
   display: block;
   color: gray;
@@ -1692,7 +1790,7 @@ strong {
   text-transform: none; }
 .ar__wrapper h2, .ar__wrapper--white h2 {
   font-size: 38px;
-  font-size: 2.38rem; }
+  font-size: 2.11rem; }
 .ar__wrapper h2, .ar__wrapper--white h2, .ar__wrapper h3, .ar__wrapper--white h3, .ar__wrapper h4, .ar__wrapper--white h4, .ar__wrapper h5, .ar__wrapper--white h5, .ar__wrapper h6, .ar__wrapper--white h6 {
   color: inherit; }
 .ar__wrapper .smallish, .ar__wrapper--white .smallish {
@@ -1744,8 +1842,11 @@ strong {
 .ar__wrapper .lead, .ar__wrapper--white .lead {
   margin-bottom: 1.4em;
   font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 1.33rem;
   line-height: 1.4; }
+.ar__wrapper .lead.smallish, .ar__wrapper--white .lead.smallish {
+  font-size: 20px;
+  font-size: 1.11rem; }
 .ar__wrapper a, .ar__wrapper--white a {
   color: white;
   text-decoration: underline; }
@@ -1765,9 +1866,10 @@ strong {
   margin-bottom: 2em;
   padding-top: 2em;
   color: #888 !important;
+  font-family: "Lato-Regular", "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 16px; }
 .link--toTop:after {
-  content: "\2003 \2003 \2191"; }
+  content: "\2003 \2191"; }
 .link--toTop:hover {
   color: #1b96ad; }
 .header--main + .link--toTop {

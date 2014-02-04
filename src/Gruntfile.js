@@ -18,7 +18,7 @@ module.exports = function(grunt) {
       },
       sass: {
         files: ['scss/**/*', 'scss/*'],
-        tasks: ['sass']
+        tasks: ['sass:dev']
       },
       js: {
         files: [
@@ -88,10 +88,22 @@ module.exports = function(grunt) {
 
     // sass and scss
     sass: {
-      dist: {
+      dev: {
         options: {
           sourcemap: true,
           style: 'indented',
+          precision: '2',
+          compass: true,
+          cache: 'delete/'
+        },
+        files: {
+          '../dist/css/ccp-color.css':'scss/style.scss'
+        }
+      },
+      dist: {
+        options: {
+          sourcemap: false,
+          style: 'compressed',
           precision: '2',
           compass: true,
           cache: 'delete/'
@@ -121,7 +133,8 @@ module.exports = function(grunt) {
     },
 
   });
-// register task
+// register tasks
 grunt.registerTask('default', ['watch']);
+grunt.registerTask('dist', ['sass:dist']);
 
 };

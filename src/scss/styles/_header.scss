@@ -109,16 +109,46 @@
 		}
 
 		.ccp-user-menu {
-			display: block;
+			display: table;
 			float: left;
 			width: 70%;
+
+			// Everything that's about to happen is a bad idea.
+			// You should never do it. Ever
+			a[href*="/login"],
+			a[href*="/register"] {
+				@extend .special_button;
+				width: 150px;
+				margin-bottom: 0;
+				display: block;
+				font-size: 1.3em;
+				text-align: center;
+
+				&:active {
+					margin-bottom: 0;
+				}
+			}
+
+			a[href*="/register"] {
+				margin-bottom: 1em;
+			}
+
+			/* li.first,
+			li.first+li {
+				width: 150px;
+				display: block;
+			}
+
+			li.first+li {
+				margin-bottom: 1em;
+			} */
 		}
 
 		.ccp-search-form {
 	    margin: 0;
 	    position: absolute;
-	    left: 0;
-	    top: 25px;
+	    right: 0;
+	    top: 0;
 
 			#applesearch {
 				margin-left: 0;
